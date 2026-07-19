@@ -1,0 +1,320 @@
+label,punycode_label,manager,country,ds,rdap,rdap_error_detail,whois,whois_detail
+ac,ac,Internet Computer Bureau Limited,Ascension Island,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+ad,ad,Andorra Telecom,Andorra,Y,Y,n/a,Y,Server available and responsive
+ae,ae,Telecommunications and Digital Government Regulatory Authority (TDRA),United Arab Emirates,N,N,Not in IANA bootstrap list,Y,Server available and responsive
+af,af,Ministry of Communications and IT,Afghanistan,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+ag,ag,UHSA School of Medicine,Antigua and Barbuda,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+ai,ai,Government of Anguilla,Anguilla,Y,Y,n/a,Y,Server available and responsive
+al,al,Electronic and Postal Communications Authority - AKEP,Albania,N,N,Not in IANA bootstrap list,N,No whois server found
+am,am,"""Internet Society"" Non-governmental Organization",Armenia,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+ao,ao,Ministry of Telecommunications and Information Technologies (MTTI),Angola,N,N,Not in IANA bootstrap list,N,No whois server found
+aq,aq,Antarctica Network Information Centre Limited,Antarctica,N,N,Not in IANA bootstrap list,N,No whois server found
+ar,ar,"Presidencia de la Nación , Secretaría Legal y Técnica",Argentina,Y,Y,n/a,Y,Server available and responsive
+as,as,AS Domain Registry,American Samoa,Y,Y,n/a,Y,Server available and responsive
+at,at,nic.at GmbH,Austria,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+au,au,.au Domain Administration (auDA),Australia,Y,Y,n/a,Y,Server available and responsive
+aw,aw,SETAR,Aruba,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+ax,ax,Ålands landskapsregering,Åland Islands,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+az,az,IntraNS,Azerbaijan,Y,N,Not in IANA bootstrap list,N,No whois server found
+ba,ba,University Tele-Informatic Center (UTIC),Bosnia and Herzegovina,N,N,Not in IANA bootstrap list,N,No whois server found
+bb,bb,"Ministry of Innovation, Science and Smart Technology",Barbados,N,N,Not in IANA bootstrap list,N,No whois server found
+bd,bd,Posts and Telecommunications Division,Bangladesh,Y,N,Not in IANA bootstrap list,N,No whois server found
+be,be,DNS Belgium vzw/asbl,Belgium,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+bf,bf,Autorité de Régulation des Communications Electroniques et des Postes (ARCEP),Burkina Faso,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+bg,bg,Register.BG,Bulgaria,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+bh,bh,Telecommunications Regulatory Authority (TRA),Bahrain,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+bi,bi,Centre National de l'Informatique,Burundi,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+bj,bj,Autorité de Régulation des Communications Electroniques et de la Poste du Bénin (ARCEP BENIN),Benin,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+bl,bl,Not assigned,Saint Barthélemy,N,N,Not in IANA bootstrap list,N,No whois server found
+bm,bm,"Registry General Department, Ministry of Home Affairs",Bermuda,Y,Y,n/a,Y,Server available and responsive
+bn,bn,Authority for Info-communications Technology Industry of Brunei Darussalam (AITI),Brunei Darussalam,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+bo,bo,Agencia para el Desarrollo de la Información de la Sociedad en Bolivia,Bolivia,N,N,Not in IANA bootstrap list,N,whois: connect(): Operation timed out
+bq,bq,Not assigned,"Bonaire, Sint Eustatius and Saba",N,N,Not in IANA bootstrap list,N,No whois server found
+br,br,Comite Gestor da Internet no Brasil,Brazil,Y,Y,n/a,Y,Server available and responsive
+bs,bs,University of The Bahamas,Bahamas,N,N,Not in IANA bootstrap list,N,No whois server found
+bt,bt,Ministry of Information and Communications,Bhutan,Y,N,Not in IANA bootstrap list,N,No whois server found
+bv,bv,Norid A/S,Bouvet Island,Y,N,Not in IANA bootstrap list,N,No whois server found
+bw,bw,Botswana Communications Regulatory Authority (BOCRA),Botswana,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+by,by,Belarusian Cloud Technologies LLC,Belarus,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+bz,bz,University of Belize,Belize,Y,N,Not in IANA bootstrap list,N,No whois server found
+ca,ca,Canadian Internet Registration Authority (CIRA) Autorité Canadienne pour les enregistrements Internet (ACEI),Canada,Y,Y,n/a,Y,Server available and responsive
+cc,cc,eNIC Cocos (Keeling) Islands Pty. Ltd. d/b/a Island Internet Services,Cocos (Keeling) Islands,Y,Y,n/a,Y,Server available and responsive
+cd,cd,Office Congolais des Postes et Télécommunications - OCPT,"Congo, The Democratic Republic of the",N,N,Not in IANA bootstrap list,N,No whois server found
+cf,cf,Societe Centrafricaine de Telecommunications (SOCATEL),Central African Republic,N,N,Not in IANA bootstrap list,N,whois: connect(): Operation timed out
+cg,cg,Interpoint Switzerland,Congo,N,N,Not in IANA bootstrap list,N,No whois server found
+ch,ch,SWITCH The Swiss Education & Research Network,Switzerland,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+ci,ci,Autorité de Régulation des Télécommunications/TIC de Côte d’lvoire (ARTCI),Côte d'Ivoire,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+ck,ck,Telecom Cook Islands Ltd.,Cook Islands,N,N,Not in IANA bootstrap list,N,No whois server found
+cl,cl,NIC Chile (University of Chile),Chile,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+cm,cm,Agence Nationale des Technologies de l'Information et de la Communication (ANTIC),Cameroon,Y,N,Server https://rdap.nic.cm unreachable,Y,Server available and responsive
+cn,cn,China Internet Network Information Center (CNNIC),China,Y,N,Not in IANA bootstrap list,Y,Manually tracked exception
+co,co,Ministry of Information and Communications Technologies (MinTIC),Colombia,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+cr,cr,National Academy of Sciences (Academia Nacional de Ciencias),Costa Rica,Y,N,SSL error: SSL_connect returned=1 errno=0 peeraddr=200.107.82.36:443 state=error: certificate verify failed (self-signed certificate),Y,Server available and responsive
+cu,cu,CENIAInternet,Cuba,N,N,Not in IANA bootstrap list,N,No whois server found
+cv,cv,Agência Reguladora Multissectorial da Economia (ARME),Cabo Verde,N,Y,n/a,Y,Server available and responsive
+cw,cw,University of Curacao,Curaçao,N,N,Not in IANA bootstrap list,N,No whois server found
+cx,cx,Christmas Island Domain Administration Limited,Christmas Island,Y,Y,n/a,Y,Server available and responsive
+cy,cy,University of Cyprus,Cyprus,Y,N,Not in IANA bootstrap list,N,No whois server found
+cz,cz,"CZ.NIC, z.s.p.o",Czechia,Y,Y,n/a,Y,Server available and responsive
+de,de,DENIC eG,Germany,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+dj,dj,Djibouti Telecom S.A,Djibouti,N,N,Not in IANA bootstrap list,N,No whois server found
+dk,dk,Dansk Internet Forum,Denmark,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+dm,dm,DotDM Corporation,Dominica,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+do,do,"Pontificia Universidad Catolica Madre y Maestra, Recinto Santo Tomas de Aquino",Dominican Republic,N,N,Not in IANA bootstrap list,Y,Server available and responsive
+dz,dz,CERIST,Algeria,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+ec,ec,ECUADORDOMAIN S.A.,Ecuador,Y,Y,n/a,Y,Server available and responsive
+ee,ee,Eesti Interneti Sihtasutus (EIS),Estonia,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+eg,eg,"Egyptian Universities Network (EUN), Supreme Council of Universities",Egypt,N,N,Not in IANA bootstrap list,N,No whois server found
+eh,eh,Not assigned,Western Sahara,N,N,Not in IANA bootstrap list,N,No whois server found
+er,er,Eritrea Telecommunication Services Corporation (EriTel),Eritrea,Y,N,Not in IANA bootstrap list,N,No whois server found
+es,es,Red.es,Spain,Y,N,Not in IANA bootstrap list,N,whois: connect(): Operation timed out
+et,et,Ethio telecom,Ethiopia,Y,N,Not in IANA bootstrap list,N,No whois server found
+eu,eu,EURid vzw,European Union,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+fi,fi,Finnish Transport and Communications Agency Traficom,Finland,Y,Y,n/a,Y,Server available and responsive
+fj,fj,"The University of the South Pacific
+IT Services",Fiji,Y,N,SSL error: SSL_connect returned=1 errno=0 peeraddr=[64:ff9b::9078:8d0d]:443 state=error: certificate verify failed (unable to get local issuer certificate),Y,Server available and responsive
+fk,fk,Falkland Islands Government,Falkland Islands (Malvinas),N,N,Not in IANA bootstrap list,N,No whois server found
+fm,fm,FSM Telecommunications Corporation,"Micronesia, Federated States of",Y,Y,n/a,Y,Server available and responsive
+fo,fo,FO Council,Faroe Islands,Y,Y,n/a,Y,Server available and responsive
+fr,fr,Association Française pour le Nommage Internet en Coopération (A.F.N.I.C.),France,Y,Y,n/a,Y,Server available and responsive
+ga,ga,Agence Nationale des Infrastructures Numériques et des Fréquences (ANINF),Gabon,Y,N,Not in IANA bootstrap list,N,No whois server found
+gb,gb,Reserved Domain - IANA,United Kingdom,N,N,Not in IANA bootstrap list,N,No whois server found
+gd,gd,The National Telecommunications Regulatory Commission (NTRC),Grenada,Y,Y,n/a,Y,Server available and responsive
+ge,ge,Caucasus Online LLC,Georgia,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+gf,gf,CANAL+ TELECOM,French Guiana,N,N,Not in IANA bootstrap list,Y,Server available and responsive
+gg,gg,Island Networks Ltd.,Guernsey,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+gh,gh,Network Computer Systems Limited,Ghana,N,N,Not in IANA bootstrap list,Y,Server available and responsive
+gi,gi,Sapphire Networks,Gibraltar,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+gl,gl,TELE Greenland A/S,Greenland,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+gm,gm,GM-NIC,Gambia,N,N,Not in IANA bootstrap list,N,No whois server found
+gn,gn,Centre National des Sciences Halieutiques de Boussoura,Guinea,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+gp,gp,Networking Technologies Group,Guadeloupe,N,N,Not in IANA bootstrap list,N,whois: connect(): Operation timed out
+gq,gq,GETESA,Equatorial Guinea,N,N,Not in IANA bootstrap list,N,Response states no whois server
+gr,gr,ICS-FORTH GR,Greece,Y,N,Not in IANA bootstrap list,N,No whois server found
+gs,gs,Government of South Georgia and South Sandwich Islands (GSGSSI),South Georgia and the South Sandwich Islands,Y,Y,n/a,Y,Server available and responsive
+gt,gt,Universidad del Valle de Guatemala,Guatemala,N,N,Not in IANA bootstrap list,N,No whois server found
+gu,gu,University of Guam,Guam,N,N,Not in IANA bootstrap list,N,No whois server found
+gw,gw,Autoridade Reguladora Nacional - Tecnologias de Informação e Comunicação da Guiné-Bissau,Guinea-Bissau,Y,N,Not in IANA bootstrap list,N,No whois server found
+gy,gy,University of Guyana,Guyana,Y,Y,n/a,Y,Server available and responsive
+hk,hk,Hong Kong Internet Registration Corporation Ltd.,Hong Kong,Y,N,Not in IANA bootstrap list,Y,Manually tracked exception
+hm,hm,HM Domain Registry,Heard Island and McDonald Islands,N,N,Not in IANA bootstrap list,N,whois: connect(): Operation timed out
+hn,hn,Red de Desarrollo Sostenible Honduras,Honduras,Y,Y,n/a,Y,Server available and responsive
+hr,hr,CARNet - Croatian Academic and Research Network,Croatia,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+ht,ht,Consortium FDS/RDDH,Haiti,Y,Y,n/a,Y,Server available and responsive
+hu,hu,Council of Hungarian Internet Providers (CHIP),Hungary,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+id,id,Perkumpulan Pengelola Nama Domain Internet Indonesia (PANDI),Indonesia,Y,Y,n/a,Y,Server available and responsive
+ie,ie,"University College Dublin, Computing Services, Computer Centre",Ireland,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+il,il,The Israel Internet Association (RA),Israel,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+im,im,Isle of Man Government,Isle of Man,N,N,Not in IANA bootstrap list,Y,Server available and responsive
+in,in,National Internet Exchange of India,India,Y,Y,n/a,Y,Server available and responsive
+io,io,Internet Computer Bureau Limited,British Indian Ocean Territory,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+iq,iq,Communications and Media Commission (CMC),Iraq,N,N,Not in IANA bootstrap list,N,"whois: whois.cmc.iq: nodename nor servname provided, or not known: Invalid argument"
+ir,ir,Institute for Research in Fundamental Sciences,Iran,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+is,is,ISNIC - Internet á Íslandi hf.,Iceland,Y,Y,n/a,Y,Server available and responsive
+it,it,IIT - CNR,Italy,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+je,je,Island Networks (Jersey) Ltd.,Jersey,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+jm,jm,University of West Indies,Jamaica,N,N,Not in IANA bootstrap list,N,No whois server found
+jo,jo,Ministry of Digital Economy and Entrepreneurship (MoDEE),Jordan,N,N,Not in IANA bootstrap list,N,No whois server found
+jp,jp,"Japan Registry Services Co., Ltd.",Japan,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+ke,ke,Kenya Network Information Center (KeNIC),Kenya,Y,Y,n/a,Y,Server available and responsive
+kg,kg,AsiaInfo Telecommunication Enterprise,Kyrgyzstan,Y,Y,n/a,Y,Server available and responsive
+kh,kh,Telecommunication Regulator of Cambodia (TRC),Cambodia,N,N,Not in IANA bootstrap list,N,No whois server found
+ki,ki,"Ministry of Information, Communications and Transport (MICT)",Kiribati,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+km,km,Comores Telecom,Comoros,N,N,Not in IANA bootstrap list,N,No whois server found
+kn,kn,"Ministry of Finance, Sustainable Development Information & Technology",Saint Kitts and Nevis,N,N,Not in IANA bootstrap list,Y,Server available and responsive
+kp,kp,Star Joint Venture Company,North Korea,N,N,Not in IANA bootstrap list,N,No whois server found
+kr,kr,Korea Internet & Security Agency (KISA),South Korea,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+kw,kw,Communications and Information Technology Regulatory Authority,Kuwait,Y,N,Not in IANA bootstrap list,N,No whois server found
+ky,ky,Utility Regulation and Competition Office (OfReg),Cayman Islands,Y,Y,n/a,Y,Server available and responsive
+kz,kz,Association of IT Companies of Kazakhstan,Kazakhstan,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+la,la,"Lao National Internet Center (LANIC), Ministry of Technology and Communications",Lao People's Democratic Republic,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+lb,lb,Internet Society Lebanon,Lebanon,Y,Y,n/a,Y,Server available and responsive
+lc,lc,University of Puerto Rico,Saint Lucia,Y,N,Not in IANA bootstrap list,N,No whois server found
+li,li,SWITCH The Swiss Education & Research Network,Liechtenstein,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+lk,lk,"Council for Information Technology
+LK Domain Registrar",Sri Lanka,Y,N,Not in IANA bootstrap list,N,No whois server found
+lr,lr,"Data Technology Solutions, Inc.",Liberia,Y,N,Not in IANA bootstrap list,N,No whois server found
+ls,ls,Lesotho Network Information Centre Proprietary (LSNIC),Lesotho,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+lt,lt,Kaunas University of Technology,Lithuania,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+lu,lu,RESTENA,Luxembourg,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+lv,lv,"University of Latvia, Institute of Mathematics and Computer Science, Department of Network Solutions (DNS)",Latvia,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+ly,ly,General Authority of Communications and Informatics (GACI),Libya,Y,Y,n/a,Y,Server available and responsive
+ma,ma,Agence Nationale de Réglementation des Télécommunications (ANRT),Morocco,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+mc,mc,Direction des Plateformes et des Ressources Numériques,Monaco,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+md,md,IP Serviciul Tehnologia Informatiei si Securitate Cibernetica,Moldova,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+me,me,Government of Montenegro,Montenegro,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+mf,mf,Not assigned,Saint Martin (French part),N,N,Not in IANA bootstrap list,N,No whois server found
+mg,mg,NIC-MG (Network Information Center Madagascar),Madagascar,Y,N,Bad status: 301,Y,Server available and responsive
+mh,mh,Office of the Cabinet,Marshall Islands,N,N,Not in IANA bootstrap list,N,No whois server found
+mk,mk,Macedonian Academic Research Network Skopje,North Macedonia,N,N,Not in IANA bootstrap list,Y,Server available and responsive
+ml,ml,Agence des Technologies de l’Information et de la Communication,Mali,Y,Y,n/a,Y,Server available and responsive
+mm,mm,Ministry of Transport and Communications,Myanmar,Y,N,Not in IANA bootstrap list,Y,Manually tracked exception
+mn,mn,"Datacom Co., Ltd.",Mongolia,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+mo,mo,Macao Post and Telecommunications Bureau (CTT),Macao,N,N,Not in IANA bootstrap list,Y,Server available and responsive
+mp,mp,"Saipan Datacom, Inc.",Northern Mariana Islands,N,N,Not in IANA bootstrap list,N,No whois server found
+mq,mq,CANAL+ TELECOM,Martinique,N,N,Not in IANA bootstrap list,Y,Server available and responsive
+mr,mr,Université de Nouakchott Al Aasriya,Mauritania,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+ms,ms,MNI Networks Ltd.,Montserrat,Y,Y,n/a,Y,Server available and responsive
+mt,mt,NIC (Malta),Malta,N,N,Not in IANA bootstrap list,N,No whois server found
+mu,mu,Internet Direct Ltd,Mauritius,Y,Y,n/a,Y,Server available and responsive
+mv,mv,Dhivehi Raajjeyge Gulhun PLC,Maldives,N,N,Not in IANA bootstrap list,N,No whois server found
+mw,mw,Malawi Sustainable Development Network Programme (Malawi SDNP),Malawi,N,N,Not in IANA bootstrap list,Y,Server available and responsive
+mx,mx,"NIC-Mexico
+ITESM - Campus Monterrey",Mexico,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+my,my,MYNIC Berhad,Malaysia,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+mz,mz,Centro de Informatica de Universidade Eduardo Mondlane,Mozambique,N,N,Not in IANA bootstrap list,Y,Server available and responsive
+na,na,Namibian Network Information Center,Namibia,Y,Y,n/a,N,No whois server found
+nc,nc,Office des Postes et Telecommunications,New Caledonia,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+ne,ne,SONITEL,Niger,N,N,Not in IANA bootstrap list,N,No whois server found
+nf,nf,Norfolk Island Data Services,Norfolk Island,Y,Y,n/a,Y,Server available and responsive
+ng,ng,Nigeria Internet Registration Association,Nigeria,Y,Y,n/a,Y,Server available and responsive
+ni,ni,Universidad Nacional del Ingernieria. Division de Tecnologias de la Informacion.,Nicaragua,N,N,Not in IANA bootstrap list,N,No whois server found
+nl,nl,SIDN (Stichting Internet Domeinregistratie Nederland),Netherlands,Y,Y,n/a,?,"Unexpected output: Error: ratelimit exceeded
+"
+no,no,Norid A/S,Norway,Y,Y,n/a,Y,Server available and responsive
+np,np,Mercantile Communications Pvt. Ltd.,Nepal,N,N,Not in IANA bootstrap list,N,No whois server found
+nr,nr,CENPAC NET,Nauru,N,N,Not in IANA bootstrap list,N,No whois server found
+nu,nu,The IUSN Foundation,Niue,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+nz,nz,InternetNZ,New Zealand,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+om,om,Telecommunications Regulatory Authority (TRA),Oman,N,N,Not in IANA bootstrap list,Y,Server available and responsive
+pa,pa,Universidad Tecnologica de Panama,Panama,N,N,Not in IANA bootstrap list,N,No whois server found
+pe,pe,Red Cientifica Peruana,Peru,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+pf,pf,Gouvernement de la Polynésie française,French Polynesia,N,N,Not in IANA bootstrap list,N,whois: connect(): Operation timed out
+pg,pg,"PNG DNS Administration, Vice Chancellors Office, The Papua New Guinea University of Technology",Papua New Guinea,Y,Y,n/a,Y,Server available and responsive
+ph,ph,PH Domain Foundation,Philippines,Y,N,Not in IANA bootstrap list,N,No whois server found
+pk,pk,PKNIC,Pakistan,N,N,Not in IANA bootstrap list,Y,Server available and responsive
+pl,pl,Research and Academic Computer Network,Poland,Y,Y,n/a,Y,Server available and responsive
+pm,pm,Association Française pour le Nommage Internet en Coopération (A.F.N.I.C.),Saint Pierre and Miquelon,Y,Y,n/a,Y,Server available and responsive
+pn,pn,Pitcairn Island Administration,Pitcairn,N,Y,n/a,N,No whois server found
+pr,pr,Gauss Research Laboratory Inc.,Puerto Rico,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+ps,ps,"Ministry of Telecommunications & Information Technology, Government Computer Center","Palestine, State of",N,N,Not in IANA bootstrap list,N,No whois server found
+pt,pt,Associação DNS.PT,Portugal,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+pw,pw,Micronesia Investment and Development Corporation,Palau,Y,Y,n/a,Y,Server available and responsive
+py,py,NIC-PY,Paraguay,Y,N,Not in IANA bootstrap list,N,No whois server found
+qa,qa,Communications Regulatory Authority,Qatar,N,N,Not in IANA bootstrap list,Y,Manually tracked exception
+re,re,Association Française pour le Nommage Internet en Coopération (A.F.N.I.C.),Réunion,Y,Y,n/a,Y,Server available and responsive
+ro,ro,National Institute for R&D in Informatics,Romania,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+rs,rs,Serbian National Internet Domain Registry (RNIDS),Serbia,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+ru,ru,Coordination Center for TLD RU,Russian Federation,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+rw,rw,Rwanda Internet Community and Technology  Alliance (RICTA) Ltd,Rwanda,Y,Y,n/a,Y,Server available and responsive
+sa,sa,"Communications, Space and Technology Commission",Saudi Arabia,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+sb,sb,Solomon Telekom Company Limited,Solomon Islands,Y,N,Not in IANA bootstrap list,N,whois: connect(): Operation timed out
+sc,sc,VCS Pty Ltd,Seychelles,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+sd,sd,Sudan Internet Society,Sudan,N,Y,n/a,Y,Server available and responsive
+se,se,The Internet Infrastructure Foundation,Sweden,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+sg,sg,Singapore Network Information Centre (SGNIC) Pte Ltd,Singapore,Y,Y,n/a,Y,Server available and responsive
+sh,sh,Government of St. Helena,"Saint Helena, Ascension and Tristan da Cunha",Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+si,si,Academic and Research Network of Slovenia (ARNES),Slovenia,Y,Y,n/a,Y,Server available and responsive
+sj,sj,Norid A/S,Svalbard and Jan Mayen,Y,N,Not in IANA bootstrap list,N,No whois server found
+sk,sk,"SK-NIC, a.s.",Slovakia,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+sl,sl,Sierratel,Sierra Leone,N,N,Not in IANA bootstrap list,N,No whois server found
+sm,sm,Telecom Italia San Marino S.p.A.,San Marino,N,N,Not in IANA bootstrap list,N,whois: connect(): Operation timed out
+sn,sn,Universite Cheikh Anta Diop,Senegal,Y,N,Bad status: 406,Y,Server available and responsive
+so,so,Ministry of Post and Telecommunications,Somalia,N,N,Not in IANA bootstrap list,Y,Server available and responsive
+sr,sr,Telesur,Suriname,Y,N,SSL error: SSL_connect returned=1 errno=0 peeraddr=[64:ff9b::a8c3:da17]:443 state=error: certificate verify failed (unable to get local issuer certificate),Y,Server available and responsive
+ss,ss,National Communication Authority (NCA),South Sudan,Y,Y,n/a,Y,Server available and responsive
+st,st,Tecnisys,Sao Tome and Principe,N,N,Not in IANA bootstrap list,Y,Server available and responsive
+su,su,Russian Institute for Development of Public Networks (ROSNIIROS),Soviet Union / Russia,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+sv,sv,SVNet,El Salvador,N,N,Not in IANA bootstrap list,N,No whois server found
+sx,sx,SX Registry SA B.V.,Sint Maarten (Dutch part),Y,N,Not in IANA bootstrap list,N,"whois: whois.sx: nodename nor servname provided, or not known: Invalid argument"
+sy,sy,National Authority for Information Technology Services (NAITS),Syrian Arab Republic,N,N,Not in IANA bootstrap list,Y,Server available and responsive
+sz,sz,"University of Swaziland
+Department of Computer Science",Eswatini,N,N,Not in IANA bootstrap list,N,No whois server found
+tc,tc,Melrex TC,Turks and Caicos Islands,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+td,td,l'Agence de Développement des Technologies de l'Information et de la Communication (ADETIC),Chad,N,N,Not in IANA bootstrap list,Y,Server available and responsive
+tf,tf,Association Française pour le Nommage Internet en Coopération (A.F.N.I.C.),French Southern Territories,Y,Y,n/a,Y,Server available and responsive
+tg,tg,Autorité de Régulation des Communications Electroniques et des Postes (ARCEP),Togo,N,N,Not in IANA bootstrap list,Y,Server available and responsive
+th,th,Thai Network Information Center Foundation,Thailand,Y,Y,n/a,Y,Manually tracked exception
+tj,tj,Information Technology Center,Tajikistan,N,N,Not in IANA bootstrap list,N,No whois server found
+tk,tk,Telecommunication Tokelau Corporation (Teletok),Tokelau,N,N,Not in IANA bootstrap list,N,whois: connect(): Operation timed out
+tl,tl,Autoridade Nacional de Comunicações,Timor-Leste,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+tm,tm,TM Domain Registry Ltd,Turkmenistan,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+tn,tn,Agence Tunisienne d'Internet,Tunisia,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+to,to,"Government of the Kingdom of Tonga, H.R.H. Crown Prince Tupouto'a, c/o Consulate of Tonga",Tonga,N,Y,n/a,Y,Server available and responsive
+tr,tr,Bilgi Teknolojileri ve İletişim Kurumu (BTK),Türkiye,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+tt,tt,"University of the West Indies, Faculty of Engineering",Trinidad and Tobago,Y,N,Not in IANA bootstrap list,N,No whois server found
+tv,tv,"Ministry of Transport, Energy, Communications and Innovations",Tuvalu,Y,Y,n/a,Y,Server available and responsive
+tw,tw,Taiwan Network Information Center (TWNIC),Taiwan,Y,N,Bad status: 426,Y,Server available and responsive
+tz,tz,Tanzania Communications Regulatory Authority,Tanzania,Y,Y,n/a,Y,Server available and responsive
+ua,ua,Hostmaster Ltd.,Ukraine,Y,Y,n/a,Y,Server available and responsive
+ug,ug,Uganda Online Ltd.,Uganda,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+uk,uk,Nominet UK,United Kingdom,Y,Y,n/a,Y,Server available and responsive
+um,um,Not assigned,United States Minor Outlying Islands,N,N,Not in IANA bootstrap list,N,No whois server found
+us,us,"Registry Services, LLC",United States,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+uy,uy,SeCIU - Universidad de la Republica,Uruguay,Y,N,Not in IANA bootstrap list,N,whois: connect(): Operation timed out
+uz,uz,Single Integrator for Creation and Support of State Information Systems UZINFOCOM,Uzbekistan,Y,N,Server https://rdap.cctld.uz unreachable,N,"whois: whois.cctld.uz: nodename nor servname provided, or not known: Invalid argument"
+va,va,Holy See - Vatican City State,Holy See (Vatican City State),N,N,Not in IANA bootstrap list,N,No whois server found
+vc,vc,"Ministry of Telecommunications, Science, Technology and Industry",Saint Vincent and the Grenadines,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+ve,ve,Comisión Nacional de Telecomunicaciones (CONATEL),Venezuela,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+vg,vg,Telecommunications Regulatory Commission of the Virgin Islands,"Virgin Islands, British",N,Y,n/a,Y,Manually tracked exception
+vi,vi,"Virgin Islands Public Telecommunications System, Inc.","Virgin Islands, U.S.",N,Y,n/a,N,whois: connect(): Operation timed out
+vn,vn,Viet Nam Internet Network Information Center (VNNIC),Vietnam,Y,N,Not in IANA bootstrap list,N,No whois server found
+vu,vu,Telecommunications Radiocommunications and Broadcasting Regulator (TRBR),Vanuatu,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+wf,wf,Association Française pour le Nommage Internet en Coopération (A.F.N.I.C.),Wallis and Futuna,Y,Y,n/a,Y,Server available and responsive
+ws,ws,Government of Samoa Ministry of Foreign Affairs & Trade,Samoa,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+ಭಾರತ,xn--2scrj9c,National Internet eXchange of India,India,Y,N,Not in IANA bootstrap list,Y,Previously checked server whois.nixiregistry.in
+한국,xn--3e0b707e,KISA (Korea Internet & Security Agency),South Korea,Y,N,Not in IANA bootstrap list,Y,Previously checked server whois.kr
+ଭାରତ,xn--3hcrj9c,National Internet eXchange of India,India,Y,N,Not in IANA bootstrap list,Y,Previously checked server whois.nixiregistry.in
+ভাৰত,xn--45br5cyl,National Internet eXchange of India,India,Y,N,Not in IANA bootstrap list,Y,Previously checked server whois.nixiregistry.in
+ভারত,xn--45brj9c,National Internet Exchange of India,India,Y,N,Not in IANA bootstrap list,Y,Previously checked server whois.nixiregistry.in
+.ישראל‎,xn--4dbrk0ce,The Israel Internet Association (RA),Israel,Y,N,Not in IANA bootstrap list,Y,Previously checked server whois.isoc.org.il
+বাংলা,xn--54b7fta0cc,Posts and Telecommunications Division,Bangladesh,Y,N,Not in IANA bootstrap list,N,No whois server found
+қаз,xn--80ao21a,Association of IT Companies of Kazakhstan,Kazakhstan,Y,N,Not in IANA bootstrap list,Y,Previously checked server whois.nic.kz
+срб,xn--90a3ac,Serbian National Internet Domain Registry (RNIDS),Serbia,Y,N,Not in IANA bootstrap list,Y,Previously checked server whois.rnids.rs
+бг,xn--90ae,Imena.BG AD,Bulgaria,Y,N,Not in IANA bootstrap list,Y,Server available and responsive
+бел,xn--90ais,Belarusian Cloud Technologies LLC,Belarus,Y,N,Not in IANA bootstrap list,Y,Previously checked server whois.cctld.by
+சிங்கப்பூர்,xn--clchc0ea0b2g2a9gcd,Singapore Network Information Centre (SGNIC) Pte Ltd,Singapore,Y,N,Bad status: 404,Y,Manually tracked exception
+мкд,xn--d1alf,Macedonian Academic Research Network Skopje,North Macedonia,N,N,Not in IANA bootstrap list,Y,Previously checked server whois.marnet.mk
+ею,xn--e1a4c,EURid vzw,European Union,Y,N,Not in IANA bootstrap list,Y,Previously checked server whois.eu
+中国,xn--fiqs8s,China Internet Network Information Center (CNNIC),China,Y,N,Not in IANA bootstrap list,Y,Manually tracked exception
+中國,xn--fiqz9s,China Internet Network Information Center (CNNIC),China,Y,N,Not in IANA bootstrap list,Y,Manually tracked exception
+భారత్,xn--fpcrj9c3d,National Internet Exchange of India,India,Y,N,Not in IANA bootstrap list,Y,Previously checked server whois.nixiregistry.in
+ලංකා,xn--fzc2c9e2c,LK Domain Registry,Sri Lanka,N,N,Not in IANA bootstrap list,N,No whois server found
+ભારત,xn--gecrj9c,National Internet Exchange of India,India,Y,N,Not in IANA bootstrap list,Y,Previously checked server whois.nixiregistry.in
+भारतम्,xn--h2breg3eve,National Internet eXchange of India,India,Y,N,Not in IANA bootstrap list,Y,Previously checked server whois.nixiregistry.in
+भारत,xn--h2brj9c,National Internet Exchange of India,India,Y,N,Not in IANA bootstrap list,Y,Previously checked server whois.nixiregistry.in
+भारोत,xn--h2brj9c8c,National Internet eXchange of India,India,Y,N,Not in IANA bootstrap list,Y,Previously checked server whois.nixiregistry.in
+укр,xn--j1amh,"Ukrainian Network Information Centre (UANIC), Inc.",Ukraine,N,N,Not in IANA bootstrap list,Y,Server available and responsive
+香港,xn--j6w193g,Hong Kong Internet Registration Corporation Ltd.,Hong Kong,Y,N,Not in IANA bootstrap list,Y,Manually tracked exception
+台湾,xn--kprw13d,Taiwan Network Information Center (TWNIC),Taiwan,Y,N,Not in IANA bootstrap list,Y,Previously checked server whois.twnic.net.tw
+台灣,xn--kpry57d,Taiwan Network Information Center (TWNIC),Taiwan,Y,N,Bad status: 426,Y,Previously checked server whois.twnic.net.tw
+мон,xn--l1acc,"Datacom Co.,Ltd",Mongolia,Y,N,Not in IANA bootstrap list,N,whois: connect(): Operation timed out
+.الجزائر‎,xn--lgbbat1ad8j,CERIST,Algeria,N,N,Not in IANA bootstrap list,Y,Previously checked server whois.nic.dz
+.عمان‎,xn--mgb9awbf,Telecommunications Regulatory Authority (TRA),Oman,N,N,Not in IANA bootstrap list,Y,Previously checked server whois.registry.om
+.ایران‎,xn--mgba3a4f16a,Institute for Research in Fundamental Sciences (IPM),Iran,N,N,Not in IANA bootstrap list,Y,Previously checked server whois.nic.ir
+.امارات‎,xn--mgbaam7a8h,Telecommunications and Digital Government Regulatory Authority (TDRA),United Arab Emirates,N,N,Not in IANA bootstrap list,Y,Previously checked server whois.aeda.net.ae
+.موريتانيا‎,xn--mgbah1a3hjkrd,Université de Nouakchott Al Aasriya,Mauritania,Y,N,Not in IANA bootstrap list,Y,Previously checked server whois.nic.mr
+.پاکستان‎,xn--mgbai9azgqp6j,National Telecommunication Corporation,Pakistan,Y,N,Not in IANA bootstrap list,N,No whois server found
+.الاردن‎,xn--mgbayh7gpa,Ministry of Digital Economy and Entrepreneurship (MoDEE),Jordan,Y,N,Not in IANA bootstrap list,N,No whois server found
+.بارت‎,xn--mgbbh1a,National Internet eXchange of India,India,Y,N,Not in IANA bootstrap list,Y,Previously checked server whois.nixiregistry.in
+.بھارت‎,xn--mgbbh1a71e,National Internet Exchange of India,India,Y,N,Not in IANA bootstrap list,Y,Previously checked server whois.nixiregistry.in
+.المغرب‎,xn--mgbc0a9azcg,Agence Nationale de Réglementation des Télécommunications (ANRT),Morocco,N,N,Not in IANA bootstrap list,N,No whois server found
+.البحرين‎,xn--mgbcpq6gpa1a,Telecommunications Regulatory Authority (TRA),Oman,Y,N,Not in IANA bootstrap list,N,No whois server found
+.السعودية‎,xn--mgberp4a5d4ar,"Communications, Space and Technology Commission",Saudi Arabia,Y,N,Not in IANA bootstrap list,Y,Previously checked server whois.nic.net.sa
+.ڀارت‎,xn--mgbgu82a,National Internet eXchange of India,India,Y,N,Not in IANA bootstrap list,Y,Previously checked server whois.nixiregistry.in
+.سودان‎,xn--mgbpl2fh,Sudan Internet Society,Sudan,N,N,Not in IANA bootstrap list,N,No whois server found
+.عراق‎,xn--mgbtx2b,Communications and Media Commission (CMC),Iraq,N,N,Not in IANA bootstrap list,N,Previously checked server whois.cmc.iq
+.مليسيا‎,xn--mgbx4cd0ab,MYNIC Berhad,Malaysia,Y,N,Not in IANA bootstrap list,Y,Previously checked server whois.mynic.my
+澳門,xn--mix891f,Macao Post and Telecommunications Bureau (CTT),Macao,N,N,Not in IANA bootstrap list,Y,Previously checked server whois.monic.mo
+გე,xn--node,Information Technologies Development Center (ITDC),Georgia,N,N,Not in IANA bootstrap list,N,No whois server found
+ไทย,xn--o3cw4h,Thai Network Information Center Foundation,Thailand,Y,N,Bad status: 404,Y,Manually tracked exception
+.سورية‎,xn--ogbpf8fl,National Authority for Information Technology Services (NAITS),Syrian Arab Republic,N,N,Not in IANA bootstrap list,Y,Previously checked server whois.tld.sy
+рф,xn--p1ai,Coordination Center for TLD RU,Russian Federation,Y,N,Not in IANA bootstrap list,Y,Previously checked server whois.tcinet.ru
+.تونس‎,xn--pgbs0dh,Agence Tunisienne d'Internet,Tunisia,Y,N,Not in IANA bootstrap list,Y,Previously checked server whois.ati.tn
+ລາວ,xn--q7ce6a,"Lao National Internet Center (LANIC), Ministry of Technology and Communications",Lao People's Democratic Republic,Y,N,Not in IANA bootstrap list,Y,Previously checked server whois.nic.la
+ευ,xn--qxa6a,EURid vzw,European Union,Y,N,Not in IANA bootstrap list,Y,Previously checked server whois.eu
+ελ,xn--qxam,ICS-FORTH GR,Greece,Y,N,Not in IANA bootstrap list,N,No whois server found
+ഭാരതം,xn--rvc1e0am3e,National Internet eXchange of India,India,Y,N,Not in IANA bootstrap list,Y,Previously checked server whois.nixiregistry.in
+ਭਾਰਤ,xn--s9brj9c,National Internet Exchange of India,India,Y,N,Not in IANA bootstrap list,Y,Previously checked server whois.nixiregistry.in
+.مصر‎,xn--wgbh1c,National Telecommunication Regulatory Authority - NTRA,Egypt,Y,N,Not in IANA bootstrap list,N,No whois server found
+.قطر‎,xn--wgbl6a,Communications Regulatory Authority,Qatar,N,N,Not in IANA bootstrap list,Y,Manually tracked exception
+இலங்கை,xn--xkc2al3hye2a,LK Domain Registry,Sri Lanka,Y,N,Not in IANA bootstrap list,N,No whois server found
+இந்தியா,xn--xkc2dl3a5ee0h,National Internet Exchange of India,India,Y,N,Not in IANA bootstrap list,Y,Previously checked server whois.nixiregistry.in
+հայ,xn--y9a3aq,"""Internet Society"" Non-governmental Organization",Armenia,Y,N,Not in IANA bootstrap list,Y,Previously checked server whois.amnic.net
+新加坡,xn--yfro4i67o,Singapore Network Information Centre (SGNIC) Pte Ltd,Singapore,Y,N,Bad status: 404,Y,Manually tracked exception
+.فلسطين‎,xn--ygbi2ammx,Ministry of Telecom & Information Technology (MTIT),"Palestine, State of",N,N,Not in IANA bootstrap list,N,whois: connect(): Operation timed out
+ye,ye,TeleYemen,Yemen,N,Y,n/a,Y,Server available and responsive
+yt,yt,Association Française pour le Nommage Internet en Coopération (A.F.N.I.C.),Mayotte,Y,Y,n/a,Y,Server available and responsive
+za,za,ZA Domain Name Authority,South Africa,Y,N,Not in IANA bootstrap list,N,No whois server found
+zm,zm,Zambia Information and Communications Technology Authority (ZICTA),Zambia,Y,Y,n/a,Y,Server available and responsive
+zw,zw,Postal and Telecommunications Regulatory Authority of Zimbabwe (POTRAZ),Zimbabwe,N,N,Not in IANA bootstrap list,N,No whois server found
