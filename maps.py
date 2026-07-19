@@ -340,15 +340,8 @@ def make_static_score_map(merged, output_path):
         loc='lower left',
         fontsize=8,
         framealpha=0.9,
-        title='Maturity Score\n(darker = recommended DNSSEC algorithm)',
+        title='Maturity Score',
         title_fontsize=8,
-    )
-
-    # Subtitle explaining the shading
-    fig.text(
-        0.5, 0.01,
-        'Darker shades indicate use of a RECOMMENDED DNSSEC signing algorithm',
-        ha='center', fontsize=8, color='#666666', style='italic'
     )
 
     plt.tight_layout()
