@@ -62,32 +62,18 @@ SCORE_LABELS = {
     0: 'No infrastructure',
 }
 
-# Two shades per DNSSEC-positive band: recommended algorithm (darker), other (lighter)
-# Scores 0 and 4 have no DNSSEC so only one shade needed
+# Colour palette - red through amber to green
 SCORE_COLOURS = {
-    5: {'recommended': '#1a7a6e', 'other': '#2a9d8f'},
-    4: {'recommended': '#8ecae6', 'other': '#8ecae6'},  # no DNSSEC, single shade
-    3: {'recommended': '#c9a030', 'other': '#e9c46a'},
-    2: {'recommended': '#d4803a', 'other': '#f4a261'},
-    1: {'recommended': '#e76f51', 'other': '#e76f51'},  # no DNSSEC, single shade
-    0: {'recommended': '#e63946', 'other': '#e63946'},  # no DNSSEC, single shade
+    5: '#2a9d8f',
+    4: '#8ecae6',
+    3: '#e9c46a',
+    2: '#f4a261',
+    1: '#e76f51',
+    0: '#e63946'
 }
-
-# Scores where algorithm distinction applies (i.e. DNSSEC is present)
-DNSSEC_SCORES = {2, 3, 5}
 
 NO_DATA_COLOUR = '#cccccc'
 
-def get_colour(row):
-    """Return fill colour based on score and DNSSEC algorithm recommendation"""
-    score_val = row.get('score')
-    if pd.isna(score_val):
-        return NO_DATA_COLOUR
-    score_val = int(score_val)
-    colours = SCORE_COLOURS.get(score_val, {'recommended': NO_DATA_COLOUR, 'other': NO_DATA_COLOUR})
-    if score_val in DNSSEC_SCORES and is_recommended(row):
-        return colours['recommended']
-    return colours['other']
 
 # ---------------------------------------------------------------------------
 # Data loading and preparation
@@ -97,9 +83,8 @@ def load_data(path):
     df = pd.read_csv(path)
     df['score'] = df.apply(score, axis=1)
     df['score_label'] = df['score'].map(SCORE_LABELS)
-    df['recommended'] = df.apply(is_recommended, axis=1)
 
-    # Build ISO code columns - filter out IDNs
+    # Build ISO code columns
     df['iso_a2'] = df.apply(
         lambda row: None if row['punycode_label'].startswith('xn--')
                     else label_to_iso(row['label']),
@@ -114,12 +99,7 @@ def load_data(path):
     print("\nScore distribution:")
     for s in sorted(SCORE_LABELS.keys(), reverse=True):
         count = (df['score'] == s).sum()
-        if s in DNSSEC_SCORES:
-            rec = ((df['score'] == s) & df['recommended']).sum()
-            print(f"  {s} - {SCORE_LABELS[s].replace(chr(10), ' ')}: {count} "
-                  f"({rec} recommended algorithm, {count - rec} other)")
-        else:
-            print(f"  {s} - {SCORE_LABELS[s].replace(chr(10), ' ')}: {count}")
+        print(f"  {s} - {SCORE_LABELS[s].replace(chr(10), ' ')}: {count}")
 
     return df
 
@@ -142,9 +122,11 @@ def iso2_to_iso3(iso2):
 
 def load_world():
     world = gpd.read_file('sources/naturalearth_lowres/ne_50m_admin_0_countries.shp')
+    # Fix known ISO code issues
     world.loc[world['NAME'] == 'France', 'ISO_A2'] = 'FR'
     world.loc[world['NAME'] == 'Norway', 'ISO_A2'] = 'NO'
     world.loc[world['NAME'] == 'Kosovo', 'ISO_A2'] = 'XK'
+    # Rename column to match what we use downstream
     world = world.rename(columns={'ISO_A2': 'iso_a2'})
     return world
 
@@ -157,55 +139,32 @@ def merge_data(world, df):
 # ---------------------------------------------------------------------------
 
 def make_interactive_map(df, output_path):
+    # Plotly needs the score as a categorical for discrete colours
     df = df.copy()
+    df['score_str'] = df['score'].astype(str)
 
-    # Create a colour key combining score and recommendation status
-    def colour_key(row):
-        s = int(row['score'])
-        if s in DNSSEC_SCORES and row['recommended']:
-            return f"{s}_rec"
-        return f"{s}_other"
-
-    df['colour_key'] = df.apply(colour_key, axis=1)
-
-    # Build colour map for all possible keys
-    colour_map = {}
-    for s, colours in SCORE_COLOURS.items():
-        colour_map[f"{s}_rec"]   = colours['recommended']
-        colour_map[f"{s}_other"] = colours['other']
-
-    # Category order - recommended variants first within each score band
-    category_order = []
-    for s in [5, 4, 3, 2, 1, 0]:
-        if s in DNSSEC_SCORES:
-            category_order += [f"{s}_rec", f"{s}_other"]
-        else:
-            category_order.append(f"{s}_other")
-
-    # Hover text
     df['hover'] = (
         '<b>' + df['label'].str.upper() + '</b><br>' +
         df['country'] + '<br>' +
-        'Score: ' + df['score'].astype(str) + '/5 — ' +
+        'Score: ' + df['score'].astype(str) + '/5<br>' +
         df['score_label'].str.replace('\n', ' ') + '<br>' +
         'DNSSEC: ' + df['ds'] + '  |  ' +
-        'RDAP: '   + df['rdap'] + '  |  ' +
-        'WHOIS: '  + df['whois'] + '<br>' +
-        df.apply(lambda r: f"Algorithm: {r.get('ds_algorithm_name', 'N/A')} "
-                           f"({r.get('ds_algorithm_status', 'N/A')})"
-                           if r['ds'] == 'Y' else '', axis=1)
+        'RDAP: ' + df['rdap'] + '  |  ' +
+        'WHOIS: ' + df['whois']
     )
+
+    colour_map = {str(k): v for k, v in SCORE_COLOURS.items()}
 
     fig = px.choropleth(
         df,
         locations='iso_a3',
-        color='colour_key',
+        color='score_str',
         color_discrete_map=colour_map,
-        category_orders={'colour_key': category_order},
+        category_orders={'score_str': ['5', '4', '3', '2', '1', '0']},
         hover_name='country',
         custom_data=['hover'],
         title='ccTLD Technical Maturity — ' + pd.Timestamp.now().strftime('%B %Y'),
-        labels={'colour_key': 'Maturity Score'},
+        labels={'score_str': 'Maturity Score'},
     )
 
     fig.update_traces(
@@ -233,14 +192,8 @@ def make_interactive_map(df, output_path):
 
     # Rename legend entries to be human readable
     for trace in fig.data:
-        key = trace.name
-        s = int(key.split('_')[0])
-        rec = key.endswith('_rec')
-        label = SCORE_LABELS[s].replace('\n', ' ')
-        if s in DNSSEC_SCORES:
-            trace.name = f"{label} ({'recommended' if rec else 'other'} algorithm)"
-        else:
-            trace.name = label
+        score_val = int(trace.name)
+        trace.name = f"{trace.name} — {SCORE_LABELS[score_val].replace(chr(10), ' ')}"
 
     fig.write_html(output_path)
     print(f"Interactive map written to {output_path}")
@@ -367,8 +320,21 @@ def make_small_multiples(merged, output_path):
 def make_static_score_map(merged, output_path):
     fig, ax = plt.subplots(1, 1, figsize=(16, 8))
 
-    colours = merged.apply(get_colour, axis=1)
-    merged.plot(ax=ax, color=colours, linewidth=0.3, edgecolor='white')
+
+    def row_colour(row):
+        score_val = row.get('score')
+        if pd.isna(score_val):
+            return NO_DATA_COLOUR
+        return SCORE_COLOURS.get(int(score_val), NO_DATA_COLOUR)
+
+    colours = merged.apply(row_colour, axis=1)
+
+    merged.plot(
+        ax=ax,
+        color=colours,
+        linewidth=0.3,
+        edgecolor='white',
+    )
 
     ax.set_title(
         f'ccTLD Technical Maturity — {pd.Timestamp.now().strftime("%B %Y")}',
@@ -376,34 +342,21 @@ def make_static_score_map(merged, output_path):
     )
     ax.axis('off')
 
-    # Build legend - two entries per DNSSEC-positive band, one for others
-    patches = []
-    for s in sorted(SCORE_COLOURS.keys(), reverse=True):
-        label = SCORE_LABELS[s].replace('\n', ' ')
-        colours_for_score = SCORE_COLOURS[s]
-        if s in DNSSEC_SCORES:
-            patches.append(mpatches.Patch(
-                color=colours_for_score['recommended'],
-                label=f"{label} (recommended algorithm)"
-            ))
-            patches.append(mpatches.Patch(
-                color=colours_for_score['other'],
-                label=f"{label} (other algorithm)"
-            ))
-        else:
-            patches.append(mpatches.Patch(
-                color=colours_for_score['other'],
-                label=label
-            ))
+    # Legend
+    patches = [
+        mpatches.Patch(color=SCORE_COLOURS[s], label=SCORE_LABELS[s].replace('\n', ' '))
+        for s in sorted(SCORE_COLOURS.keys(), reverse=True)
+    ]
+
     patches.append(mpatches.Patch(color=NO_DATA_COLOUR, label='No data / not assessed'))
 
     ax.legend(
         handles=patches,
         loc='lower left',
-        fontsize=8,
+        fontsize=9,
         framealpha=0.9,
         title='Maturity Score',
-        title_fontsize=8,
+        title_fontsize=9,
     )
 
     plt.tight_layout()
