@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-ccTLD Maturity Visualisation
-Generates a choropleth map and small multiples from a maturity CSV dataset.
+ccTLD Protocol Support Visualisation
+Generates a choropleth map and small multiples from a technical profile CSV dataset.
 """
 
 import pandas as pd
@@ -30,15 +30,15 @@ ISO_EXCEPTIONS = {
 # the larger .sh
 EXCLUDE = {'eu', 'su', 'gb', 'ac'}
 
-# Scoring rules - returns 0-5
-# 5: DNSSEC + RDAP          (all services)
-# 4: RDAP only              (modern query layer, unsigned)
-# 3: DNSSEC + WHOIS         (established, not modernised)
-# 2: DNSSEC only            (secure, minimal interface)
-# 1: WHOIS only             (legacy infrastructure)
-# 0: nothing                (no detectable services)
+# Grouping rules - returns 0-5 for mapping to colours
+# 5: DNSSEC + RDAP
+# 4: RDAP only
+# 3: DNSSEC + WHOIS
+# 2: DNSSEC only
+# 1: WHOIS only
+# 0: no supported protocols
 
-def score(row):
+def group(row):
     ds    = row['ds']    == 'Y'
     rdap  = row['rdap']  == 'Y'
     whois = row['whois'] == 'Y'
@@ -53,17 +53,17 @@ def is_recommended(row):
     """True if DNSSEC is deployed with a RECOMMENDED signing algorithm"""
     return row['ds'] == 'Y' and row.get('ds_algorithm_status') == 'RECOMMENDED'
 
-SCORE_LABELS = {
-    5: 'Full services\n(DNSSEC + RDAP)',
+GROUP_LABELS = {
+    5: 'DNSSEC + RDAP',
     4: 'RDAP, no DNSSEC',
     3: 'DNSSEC + WHOIS',
     2: 'DNSSEC only',
     1: 'WHOIS only',
-    0: 'No infrastructure',
+    0: 'No support',
 }
 
 # Colour palette - red through amber to green
-SCORE_COLOURS = {
+GROUP_COLOURS = {
     5: '#2a9d8f',
     4: '#8ecae6',
     3: '#e9c46a',
@@ -81,8 +81,8 @@ NO_DATA_COLOUR = '#cccccc'
 
 def load_data(path):
     df = pd.read_csv(path)
-    df['score'] = df.apply(score, axis=1)
-    df['score_label'] = df['score'].map(SCORE_LABELS)
+    df['group'] = df.apply(group, axis=1)
+    df['group_label'] = df['group'].map(GROUP_LABELS)
 
     # Build ISO code columns
     df['iso_a2'] = df.apply(
@@ -96,10 +96,10 @@ def load_data(path):
     df = df[df['iso_a2'].notna()]
 
     print(f"Loaded {len(df)} ccTLDs")
-    print("\nScore distribution:")
-    for s in sorted(SCORE_LABELS.keys(), reverse=True):
-        count = (df['score'] == s).sum()
-        print(f"  {s} - {SCORE_LABELS[s].replace(chr(10), ' ')}: {count}")
+    print("\nGroup distribution:")
+    for s in sorted(GROUP_LABELS.keys(), reverse=True):
+        count = (df['group'] == s).sum()
+        print(f"  {s} - {GROUP_LABELS[s].replace(chr(10), ' ')}: {count}")
 
     return df
 
@@ -135,36 +135,36 @@ def merge_data(world, df):
     return world.merge(df, on='iso_a2', how='left')
 
 # ---------------------------------------------------------------------------
-# Interactive choropleth (Plotly) - hero map with overall score
+# Interactive choropleth (Plotly) - hero map with overall groups
 # ---------------------------------------------------------------------------
 
 def make_interactive_map(df, output_path):
-    # Plotly needs the score as a categorical for discrete colours
+    # Plotly needs the group as a categorical for discrete colours
     df = df.copy()
-    df['score_str'] = df['score'].astype(str)
+    df['group_str'] = df['group'].astype(str)
 
     df['hover'] = (
         '<b>' + df['label'].str.upper() + '</b><br>' +
         df['country'] + '<br>' +
-        'Score: ' + df['score'].astype(str) + '/5<br>' +
-        df['score_label'].str.replace('\n', ' ') + '<br>' +
+        'Group: ' + df['group'].astype(str) + '/5<br>' +
+        df['group_label'].str.replace('\n', ' ') + '<br>' +
         'DNSSEC: ' + df['ds'] + '  |  ' +
         'RDAP: ' + df['rdap'] + '  |  ' +
         'WHOIS: ' + df['whois']
     )
 
-    colour_map = {str(k): v for k, v in SCORE_COLOURS.items()}
+    colour_map = {str(k): v for k, v in GROUP_COLOURS.items()}
 
     fig = px.choropleth(
         df,
         locations='iso_a3',
-        color='score_str',
+        color='group_str',
         color_discrete_map=colour_map,
-        category_orders={'score_str': ['5', '4', '3', '2', '1', '0']},
+        category_orders={'group_str': ['5', '4', '3', '2', '1', '0']},
         hover_name='country',
         custom_data=['hover'],
-        title='ccTLD Technical Maturity — ' + pd.Timestamp.now().strftime('%B %Y'),
-        labels={'score_str': 'Maturity Score'},
+        title='ccTLD Technical Profiling — ' + pd.Timestamp.now().strftime('%B %Y'),
+        labels={'group_str': 'Protocol Support'},
     )
 
     fig.update_traces(
@@ -183,7 +183,7 @@ def make_interactive_map(df, output_path):
             projection_type='natural earth',
         ),
         legend=dict(
-            title='Maturity Score',
+            title='Protocol Support',
             orientation='v',
         ),
         margin=dict(l=0, r=0, t=40, b=0),
@@ -192,8 +192,8 @@ def make_interactive_map(df, output_path):
 
     # Rename legend entries to be human readable
     for trace in fig.data:
-        score_val = int(trace.name)
-        trace.name = f"{trace.name} — {SCORE_LABELS[score_val].replace(chr(10), ' ')}"
+        group_val = int(trace.name)
+        trace.name = f"{trace.name} — {GROUP_LABELS[group_val].replace(chr(10), ' ')}"
 
     fig.write_html(output_path)
     print(f"Interactive map written to {output_path}")
@@ -217,7 +217,7 @@ def make_small_multiples(merged, output_path):
         {
             'type':      'multivalue',
             'col':       'ds_algorithm_status',
-            'title':     'DNSSEC Maturity',
+            'title':     'DNSSEC Algorithm Status',
             'colours':   DNSSEC_ALGORITHM_COLOURS,
             'order':     ['RECOMMENDED', 'MAY', 'NOT RECOMMENDED', 'MUST NOT', 'n/a'],
             'labels':    {
@@ -314,18 +314,18 @@ def make_small_multiples(merged, output_path):
 
 
 # ---------------------------------------------------------------------------
-# Static score map (matplotlib)
+# Static map (matplotlib)
 # ---------------------------------------------------------------------------
 
-def make_static_score_map(merged, output_path):
+def make_static_map(merged, output_path):
     fig, ax = plt.subplots(1, 1, figsize=(16, 8))
 
 
     def row_colour(row):
-        score_val = row.get('score')
-        if pd.isna(score_val):
+        group_val = row.get('group')
+        if pd.isna(group_val):
             return NO_DATA_COLOUR
-        return SCORE_COLOURS.get(int(score_val), NO_DATA_COLOUR)
+        return GROUP_COLOURS.get(int(group_val), NO_DATA_COLOUR)
 
     colours = merged.apply(row_colour, axis=1)
 
@@ -337,15 +337,15 @@ def make_static_score_map(merged, output_path):
     )
 
     ax.set_title(
-        f'ccTLD Technical Maturity — {pd.Timestamp.now().strftime("%B %Y")}',
+        f'ccTLD Technical Profiling — {pd.Timestamp.now().strftime("%B %Y")}',
         fontsize=14, fontweight='bold', pad=12,
     )
     ax.axis('off')
 
     # Legend
     patches = [
-        mpatches.Patch(color=SCORE_COLOURS[s], label=SCORE_LABELS[s].replace('\n', ' '))
-        for s in sorted(SCORE_COLOURS.keys(), reverse=True)
+        mpatches.Patch(color=GROUP_COLOURS[s], label=GROUP_LABELS[s].replace('\n', ' '))
+        for s in sorted(GROUP_COLOURS.keys(), reverse=True)
     ]
 
     patches.append(mpatches.Patch(color=NO_DATA_COLOUR, label='No data / not assessed'))
@@ -355,14 +355,14 @@ def make_static_score_map(merged, output_path):
         loc='lower left',
         fontsize=9,
         framealpha=0.9,
-        title='Maturity Score',
+        title='Protocol Support',
         title_fontsize=9,
     )
 
     plt.tight_layout()
     fig.savefig(output_path, dpi=150, bbox_inches='tight')
     plt.close()
-    print(f"Static score map written to {output_path}")
+    print(f"Static map written to {output_path}")
 
 
 # ---------------------------------------------------------------------------
@@ -372,7 +372,7 @@ def make_static_score_map(merged, output_path):
 def main():
     if len(sys.argv) != 2:
         print("Usage: python visualise.py <results.csv>")
-        print("  results.csv  Path to the ccTLD maturity CSV generated by the data gathering scripts")
+        print("  results.csv  Path to the ccTLD technical profile CSV generated by the data gathering scripts")
         sys.exit(1)
 
     csv_path = sys.argv[1]
@@ -387,14 +387,14 @@ def main():
     world  = load_world()
     merged = merge_data(world, df)
 
-    make_interactive_map(df,     os.path.join(OUTPUT_DIR, 'maturity_interactive.html'))
-    make_static_score_map(merged, os.path.join(OUTPUT_DIR, 'maturity_score.png'))
-    make_small_multiples(merged,  os.path.join(OUTPUT_DIR, 'maturity_multiples.png'))
+    make_interactive_map(df,     os.path.join(OUTPUT_DIR, 'profile_interactive.html'))
+    make_static_map(merged, os.path.join(OUTPUT_DIR, 'profile_static.png'))
+    make_small_multiples(merged,  os.path.join(OUTPUT_DIR, 'profile_multiples.png'))
 
     print("\nDone. Outputs:")
-    print(f"  {OUTPUT_DIR}/maturity_interactive.html  — embeddable interactive map")
-    print(f"  {OUTPUT_DIR}/maturity_score.png         — static consolidated maturity map")
-    print(f"  {OUTPUT_DIR}/maturity_multiples.png     — detailed graphics by category")
+    print(f"  {OUTPUT_DIR}/profile_interactive.html  — embeddable interactive map")
+    print(f"  {OUTPUT_DIR}/profile_static.png        — static consolidated protocol support map")
+    print(f"  {OUTPUT_DIR}/profile_multiples.png     — detailed graphics by category")
 
 
 if __name__ == '__main__':
