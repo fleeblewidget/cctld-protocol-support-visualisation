@@ -1,0 +1,561 @@
+label,punycode_label,manager,country,ds,ds_algorithm_number,ds_algorithm_name,ds_algorithm_status,rdap,rdap_error_detail,whois,whois_detail,ipv6
+ac,ac,Internet Computer Bureau Limited,Ascension Island,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+ad,ad,Andorra Telecom,Andorra,Y,8,RSASHA256,RECOMMENDED,Y,n/a,Y,Server available and responsive,Y
+ae,ae,Telecommunications and Digital Government Regulatory Authority (TDRA),United Arab Emirates,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+af,af,Ministry of Communications and IT,Afghanistan,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+ag,ag,UHSA School of Medicine,Antigua and Barbuda,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+ai,ai,Government of Anguilla,Anguilla,Y,8,RSASHA256,RECOMMENDED,Y,n/a,Y,Server available and responsive,Y
+al,al,Electronic and Postal Communications Authority - AKEP,Albania,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,No whois server found,Y
+am,am,"""Internet Society"" Non-governmental Organization",Armenia,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+ao,ao,Ministry of Telecommunications and Information Technologies (MTTI),Angola,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,No whois server found,Y
+aq,aq,Antarctica Network Information Centre Limited,Antarctica,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,No whois server found,Y
+ar,ar,"Presidencia de la Nación , Secretaría Legal y Técnica",Argentina,Y,8,RSASHA256,RECOMMENDED,N,Server https://rdap.nic.ar unreachable,Y,Server available and responsive,Y
+as,as,AS Domain Registry,American Samoa,Y,8,RSASHA256,RECOMMENDED,Y,n/a,Y,Server available and responsive,Y
+at,at,nic.at GmbH,Austria,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+au,au,.au Domain Administration (auDA),Australia,Y,8,RSASHA256,RECOMMENDED,Y,n/a,Y,Server available and responsive,Y
+aw,aw,SETAR,Aruba,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+ax,ax,Ålands landskapsregering,Åland Islands,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+az,az,IntraNS,Azerbaijan,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,N,No whois server found,Y
+ba,ba,University Tele-Informatic Center (UTIC),Bosnia and Herzegovina,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,No whois server found,Y
+bb,bb,"Ministry of Innovation, Science and Smart Technology",Barbados,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,No whois server found,Y
+bd,bd,Posts and Telecommunications Division,Bangladesh,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,N,No whois server found,Y
+be,be,DNS Belgium vzw/asbl,Belgium,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+bf,bf,Autorité de Régulation des Communications Electroniques et des Postes (ARCEP),Burkina Faso,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+bg,bg,Register.BG,Bulgaria,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+bh,bh,Telecommunications Regulatory Authority (TRA),Bahrain,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+bi,bi,Centre National de l'Informatique,Burundi,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+bj,bj,Autorité de Régulation des Communications Electroniques et de la Poste du Bénin (ARCEP BENIN),Benin,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+bl,bl,Not assigned,Saint Barthélemy,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,No whois server found,N
+bm,bm,"Registry General Department, Ministry of Home Affairs",Bermuda,Y,8,RSASHA256,RECOMMENDED,Y,n/a,Y,Server available and responsive,Y
+bn,bn,Authority for Info-communications Technology Industry of Brunei Darussalam (AITI),Brunei Darussalam,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+bo,bo,Agencia para el Desarrollo de la Información de la Sociedad en Bolivia,Bolivia,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,whois: connect(): Operation timed out,Y
+bq,bq,Not assigned,"Bonaire, Sint Eustatius and Saba",N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,No whois server found,N
+br,br,Comite Gestor da Internet no Brasil,Brazil,Y,13,ECDSAP256SHA256,RECOMMENDED,Y,n/a,Y,Server available and responsive,Y
+bs,bs,University of The Bahamas,Bahamas,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,No whois server found,Y
+bt,bt,Ministry of Information and Communications,Bhutan,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,N,No whois server found,Y
+bv,bv,Norid A/S,Bouvet Island,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,N,No whois server found,Y
+bw,bw,Botswana Communications Regulatory Authority (BOCRA),Botswana,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+by,by,Belarusian Cloud Technologies LLC,Belarus,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+bz,bz,University of Belize,Belize,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,N,No whois server found,Y
+ca,ca,Canadian Internet Registration Authority (CIRA) Autorité Canadienne pour les enregistrements Internet (ACEI),Canada,Y,13,ECDSAP256SHA256,RECOMMENDED,Y,n/a,Y,Server available and responsive,Y
+cc,cc,eNIC Cocos (Keeling) Islands Pty. Ltd. d/b/a Island Internet Services,Cocos (Keeling) Islands,Y,13,ECDSAP256SHA256,RECOMMENDED,Y,n/a,Y,Server available and responsive,Y
+cd,cd,Office Congolais des Postes et Télécommunications - OCPT,"Congo, The Democratic Republic of the",N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,No whois server found,Y
+cf,cf,Societe Centrafricaine de Telecommunications (SOCATEL),Central African Republic,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,whois: connect(): Operation timed out,Y
+cg,cg,Interpoint Switzerland,Congo,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,No whois server found,Y
+ch,ch,SWITCH The Swiss Education & Research Network,Switzerland,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+ci,ci,Autorité de Régulation des Télécommunications/TIC de Côte d’lvoire (ARTCI),Côte d'Ivoire,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+ck,ck,Telecom Cook Islands Ltd.,Cook Islands,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,No whois server found,N
+cl,cl,NIC Chile (University of Chile),Chile,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+cm,cm,Agence Nationale des Technologies de l'Information et de la Communication (ANTIC),Cameroon,Y,13,ECDSAP256SHA256,RECOMMENDED,Y,n/a,Y,Server available and responsive,Y
+cn,cn,China Internet Network Information Center (CNNIC),China,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+co,co,Ministry of Information and Communications Technologies (MinTIC),Colombia,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+cr,cr,National Academy of Sciences (Academia Nacional de Ciencias),Costa Rica,Y,13,ECDSAP256SHA256,RECOMMENDED,N,SSL error: SSL_connect returned=1 errno=0 peeraddr=200.107.82.36:443 state=error: certificate verify failed (self-signed certificate),Y,Server available and responsive,Y
+cu,cu,CENIAInternet,Cuba,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,No whois server found,Y
+cv,cv,Agência Reguladora Multissectorial da Economia (ARME),Cabo Verde,N,n/a,n/a,n/a,Y,n/a,Y,Server available and responsive,Y
+cw,cw,University of Curacao,Curaçao,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,No whois server found,Y
+cx,cx,Christmas Island Domain Administration Limited,Christmas Island,Y,8,RSASHA256,RECOMMENDED,Y,n/a,Y,Server available and responsive,Y
+cy,cy,University of Cyprus,Cyprus,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,N,No whois server found,Y
+cz,cz,"CZ.NIC, z.s.p.o",Czechia,Y,13,ECDSAP256SHA256,RECOMMENDED,Y,n/a,Y,Server available and responsive,Y
+de,de,DENIC eG,Germany,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+dj,dj,Djibouti Telecom S.A,Djibouti,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,No whois server found,N
+dk,dk,Dansk Internet Forum,Denmark,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+dm,dm,DotDM Corporation,Dominica,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+do,do,"Pontificia Universidad Catolica Madre y Maestra, Recinto Santo Tomas de Aquino",Dominican Republic,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+dz,dz,CERIST,Algeria,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+ec,ec,ECUADORDOMAIN S.A.,Ecuador,Y,13,ECDSAP256SHA256,RECOMMENDED,Y,n/a,Y,Server available and responsive,Y
+ee,ee,Eesti Interneti Sihtasutus (EIS),Estonia,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+eg,eg,"Egyptian Universities Network (EUN), Supreme Council of Universities",Egypt,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,No whois server found,Y
+eh,eh,Not assigned,Western Sahara,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,No whois server found,N
+er,er,Eritrea Telecommunication Services Corporation (EriTel),Eritrea,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,N,No whois server found,Y
+es,es,Red.es,Spain,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,N,whois: connect(): Operation timed out,Y
+et,et,Ethio telecom,Ethiopia,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,N,No whois server found,N
+eu,eu,EURid vzw,European Union,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+fi,fi,Finnish Transport and Communications Agency Traficom,Finland,Y,13,ECDSAP256SHA256,RECOMMENDED,Y,n/a,Y,Server available and responsive,Y
+fj,fj,"The University of the South Pacific
+IT Services",Fiji,Y,15,ED25519,RECOMMENDED,N,SSL error: SSL_connect returned=1 errno=0 peeraddr=144.120.141.13:443 state=error: certificate verify failed (unable to get local issuer certificate),Y,Server available and responsive,Y
+fk,fk,Falkland Islands Government,Falkland Islands (Malvinas),N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,No whois server found,N
+fm,fm,FSM Telecommunications Corporation,"Micronesia, Federated States of",Y,8,RSASHA256,RECOMMENDED,Y,n/a,Y,Server available and responsive,Y
+fo,fo,FO Council,Faroe Islands,Y,8,RSASHA256,RECOMMENDED,Y,n/a,Y,Server available and responsive,Y
+fr,fr,Association Française pour le Nommage Internet en Coopération (A.F.N.I.C.),France,Y,13,ECDSAP256SHA256,RECOMMENDED,Y,n/a,Y,Server available and responsive,Y
+ga,ga,Agence Nationale des Infrastructures Numériques et des Fréquences (ANINF),Gabon,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,N,No whois server found,Y
+gb,gb,Reserved Domain - IANA,United Kingdom,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,No whois server found,Y
+gd,gd,The National Telecommunications Regulatory Commission (NTRC),Grenada,Y,7,RSASHA1-NSEC3-SHA1,MUST NOT,Y,n/a,Y,Server available and responsive,Y
+ge,ge,Caucasus Online LLC,Georgia,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,N
+gf,gf,CANAL+ TELECOM,French Guiana,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,Y,Server available and responsive,N
+gg,gg,Island Networks Ltd.,Guernsey,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+gh,gh,Network Computer Systems Limited,Ghana,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+gi,gi,Sapphire Networks,Gibraltar,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+gl,gl,TELE Greenland A/S,Greenland,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+gm,gm,GM-NIC,Gambia,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,No whois server found,Y
+gn,gn,Centre National des Sciences Halieutiques de Boussoura,Guinea,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+gp,gp,Networking Technologies Group,Guadeloupe,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,whois: connect(): Operation timed out,Y
+gq,gq,GETESA,Equatorial Guinea,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,Response states no whois server,Y
+gr,gr,ICS-FORTH GR,Greece,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,N,No whois server found,Y
+gs,gs,Government of South Georgia and South Sandwich Islands (GSGSSI),South Georgia and the South Sandwich Islands,Y,8,RSASHA256,RECOMMENDED,Y,n/a,Y,Server available and responsive,Y
+gt,gt,Universidad del Valle de Guatemala,Guatemala,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,No whois server found,Y
+gu,gu,University of Guam,Guam,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,No whois server found,Y
+gw,gw,Autoridade Reguladora Nacional - Tecnologias de Informação e Comunicação da Guiné-Bissau,Guinea-Bissau,Y,10,RSASHA512,NOT RECOMMENDED,N,Not in IANA bootstrap list,N,No whois server found,Y
+gy,gy,University of Guyana,Guyana,Y,8,RSASHA256,RECOMMENDED,Y,n/a,Y,Server available and responsive,Y
+hk,hk,Hong Kong Internet Registration Corporation Ltd.,Hong Kong,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+hm,hm,HM Domain Registry,Heard Island and McDonald Islands,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,whois: connect(): Operation timed out,N
+hn,hn,Red de Desarrollo Sostenible Honduras,Honduras,Y,8,RSASHA256,RECOMMENDED,Y,n/a,Y,Server available and responsive,Y
+hr,hr,CARNet - Croatian Academic and Research Network,Croatia,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+ht,ht,Consortium FDS/RDDH,Haiti,Y,8,RSASHA256,RECOMMENDED,Y,n/a,Y,Server available and responsive,Y
+hu,hu,Council of Hungarian Internet Providers (CHIP),Hungary,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+id,id,Perkumpulan Pengelola Nama Domain Internet Indonesia (PANDI),Indonesia,Y,8,RSASHA256,RECOMMENDED,Y,n/a,Y,Server available and responsive,Y
+ie,ie,"University College Dublin, Computing Services, Computer Centre",Ireland,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+il,il,The Israel Internet Association (RA),Israel,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+im,im,Isle of Man Government,Isle of Man,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+in,in,National Internet Exchange of India,India,Y,13,ECDSAP256SHA256,RECOMMENDED,Y,n/a,Y,Server available and responsive,Y
+io,io,Internet Computer Bureau Limited,British Indian Ocean Territory,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+iq,iq,Communications and Media Commission (CMC),Iraq,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,"whois: whois.cmc.iq: nodename nor servname provided, or not known: Invalid argument",Y
+ir,ir,Institute for Research in Fundamental Sciences,Iran,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+is,is,ISNIC - Internet á Íslandi hf.,Iceland,Y,13,ECDSAP256SHA256,RECOMMENDED,Y,n/a,Y,Server available and responsive,Y
+it,it,IIT - CNR,Italy,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+je,je,Island Networks (Jersey) Ltd.,Jersey,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+jm,jm,University of West Indies,Jamaica,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,No whois server found,Y
+jo,jo,Ministry of Digital Economy and Entrepreneurship (MoDEE),Jordan,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,No whois server found,Y
+jp,jp,"Japan Registry Services Co., Ltd.",Japan,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+ke,ke,Kenya Network Information Center (KeNIC),Kenya,Y,8,RSASHA256,RECOMMENDED,Y,n/a,Y,Server available and responsive,Y
+kg,kg,AsiaInfo Telecommunication Enterprise,Kyrgyzstan,Y,8,RSASHA256,RECOMMENDED,Y,n/a,Y,Server available and responsive,Y
+kh,kh,Telecommunication Regulator of Cambodia (TRC),Cambodia,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,No whois server found,Y
+ki,ki,"Ministry of Information, Communications and Transport (MICT)",Kiribati,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+km,km,Comores Telecom,Comoros,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,No whois server found,Y
+kn,kn,"Ministry of Finance, Sustainable Development Information & Technology",Saint Kitts and Nevis,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+kp,kp,Star Joint Venture Company,North Korea,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,No whois server found,N
+kr,kr,Korea Internet & Security Agency (KISA),South Korea,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+kw,kw,Communications and Information Technology Regulatory Authority,Kuwait,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,N,No whois server found,Y
+ky,ky,Utility Regulation and Competition Office (OfReg),Cayman Islands,Y,13,ECDSAP256SHA256,RECOMMENDED,Y,n/a,Y,Server available and responsive,Y
+kz,kz,Association of IT Companies of Kazakhstan,Kazakhstan,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+la,la,"Lao National Internet Center (LANIC), Ministry of Technology and Communications",Lao People's Democratic Republic,Y,7,RSASHA1-NSEC3-SHA1,MUST NOT,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+lb,lb,Internet Society Lebanon,Lebanon,Y,8,RSASHA256,RECOMMENDED,Y,n/a,Y,Server available and responsive,Y
+lc,lc,University of Puerto Rico,Saint Lucia,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,N,No whois server found,Y
+li,li,SWITCH The Swiss Education & Research Network,Liechtenstein,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+lk,lk,"Council for Information Technology
+LK Domain Registrar",Sri Lanka,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,N,No whois server found,Y
+lr,lr,"Data Technology Solutions, Inc.",Liberia,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,N,No whois server found,Y
+ls,ls,Lesotho Network Information Centre Proprietary (LSNIC),Lesotho,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+lt,lt,Kaunas University of Technology,Lithuania,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+lu,lu,RESTENA,Luxembourg,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+lv,lv,"University of Latvia, Institute of Mathematics and Computer Science, Department of Network Solutions (DNS)",Latvia,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+ly,ly,General Authority of Communications and Informatics (GACI),Libya,Y,8,RSASHA256,RECOMMENDED,Y,n/a,Y,Server available and responsive,Y
+ma,ma,Agence Nationale de Réglementation des Télécommunications (ANRT),Morocco,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+mc,mc,Direction des Plateformes et des Ressources Numériques,Monaco,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+md,md,IP Serviciul Tehnologia Informatiei si Securitate Cibernetica,Moldova,Y,14,ECDSAP384SHA384,MAY,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+me,me,Government of Montenegro,Montenegro,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+mf,mf,Not assigned,Saint Martin (French part),N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,No whois server found,N
+mg,mg,NIC-MG (Network Information Center Madagascar),Madagascar,Y,8,RSASHA256,RECOMMENDED,N,Bad status: 301,Y,Server available and responsive,Y
+mh,mh,Office of the Cabinet,Marshall Islands,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,No whois server found,Y
+mk,mk,Macedonian Academic Research Network Skopje,North Macedonia,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+ml,ml,Agence des Technologies de l’Information et de la Communication,Mali,Y,15,ED25519,RECOMMENDED,Y,n/a,Y,Server available and responsive,Y
+mm,mm,Ministry of Transport and Communications,Myanmar,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,N
+mn,mn,"Datacom Co., Ltd.",Mongolia,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+mo,mo,Macao Post and Telecommunications Bureau (CTT),Macao,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+mp,mp,"Saipan Datacom, Inc.",Northern Mariana Islands,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,No whois server found,N
+mq,mq,CANAL+ TELECOM,Martinique,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,Y,Server available and responsive,N
+mr,mr,Université de Nouakchott Al Aasriya,Mauritania,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+ms,ms,MNI Networks Ltd.,Montserrat,Y,8,RSASHA256,RECOMMENDED,Y,n/a,Y,Server available and responsive,Y
+mt,mt,NIC (Malta),Malta,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,No whois server found,Y
+mu,mu,Internet Direct Ltd,Mauritius,Y,8,RSASHA256,RECOMMENDED,Y,n/a,Y,Server available and responsive,Y
+mv,mv,Dhivehi Raajjeyge Gulhun PLC,Maldives,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,No whois server found,Y
+mw,mw,Malawi Sustainable Development Network Programme (Malawi SDNP),Malawi,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+mx,mx,"NIC-Mexico
+ITESM - Campus Monterrey",Mexico,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+my,my,MYNIC Berhad,Malaysia,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+mz,mz,Centro de Informatica de Universidade Eduardo Mondlane,Mozambique,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+na,na,Namibian Network Information Center,Namibia,Y,8,RSASHA256,RECOMMENDED,Y,n/a,N,No whois server found,Y
+nc,nc,Office des Postes et Telecommunications,New Caledonia,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+ne,ne,SONITEL,Niger,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,No whois server found,Y
+nf,nf,Norfolk Island Data Services,Norfolk Island,Y,8,RSASHA256,RECOMMENDED,Y,n/a,Y,Server available and responsive,Y
+ng,ng,Nigeria Internet Registration Association,Nigeria,Y,13,ECDSAP256SHA256,RECOMMENDED,Y,n/a,Y,Server available and responsive,Y
+ni,ni,Universidad Nacional del Ingernieria. Division de Tecnologias de la Informacion.,Nicaragua,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,No whois server found,Y
+nl,nl,SIDN (Stichting Internet Domeinregistratie Nederland),Netherlands,Y,13,ECDSAP256SHA256,RECOMMENDED,Y,n/a,Y,Server available and responsive,Y
+no,no,Norid A/S,Norway,Y,13,ECDSAP256SHA256,RECOMMENDED,Y,n/a,Y,Server available and responsive,Y
+np,np,Mercantile Communications Pvt. Ltd.,Nepal,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,No whois server found,Y
+nr,nr,CENPAC NET,Nauru,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,No whois server found,Y
+nu,nu,The IUSN Foundation,Niue,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+nz,nz,InternetNZ,New Zealand,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+om,om,Telecommunications Regulatory Authority (TRA),Oman,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+pa,pa,Universidad Tecnologica de Panama,Panama,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,No whois server found,Y
+pe,pe,Red Cientifica Peruana,Peru,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+pf,pf,Gouvernement de la Polynésie française,French Polynesia,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,whois: connect(): Operation timed out,Y
+pg,pg,"PNG DNS Administration, Vice Chancellors Office, The Papua New Guinea University of Technology",Papua New Guinea,Y,15,ED25519,RECOMMENDED,Y,n/a,Y,Server available and responsive,Y
+ph,ph,PH Domain Foundation,Philippines,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,N,No whois server found,Y
+pk,pk,PKNIC,Pakistan,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+pl,pl,Research and Academic Computer Network,Poland,Y,8,RSASHA256,RECOMMENDED,Y,n/a,Y,Server available and responsive,Y
+pm,pm,Association Française pour le Nommage Internet en Coopération (A.F.N.I.C.),Saint Pierre and Miquelon,Y,13,ECDSAP256SHA256,RECOMMENDED,Y,n/a,Y,Server available and responsive,Y
+pn,pn,Pitcairn Island Administration,Pitcairn,N,n/a,n/a,n/a,Y,n/a,N,No whois server found,Y
+pr,pr,Gauss Research Laboratory Inc.,Puerto Rico,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+ps,ps,"Ministry of Telecommunications & Information Technology, Government Computer Center","Palestine, State of",N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,No whois server found,Y
+pt,pt,Associação DNS.PT,Portugal,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+pw,pw,Micronesia Investment and Development Corporation,Palau,Y,13,ECDSAP256SHA256,RECOMMENDED,Y,n/a,Y,Server available and responsive,Y
+py,py,NIC-PY,Paraguay,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,N,No whois server found,Y
+qa,qa,Communications Regulatory Authority,Qatar,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+re,re,Association Française pour le Nommage Internet en Coopération (A.F.N.I.C.),Réunion,Y,13,ECDSAP256SHA256,RECOMMENDED,Y,n/a,Y,Server available and responsive,Y
+ro,ro,National Institute for R&D in Informatics,Romania,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+rs,rs,Serbian National Internet Domain Registry (RNIDS),Serbia,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+ru,ru,Coordination Center for TLD RU,Russian Federation,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+rw,rw,Rwanda Internet Community and Technology  Alliance (RICTA) Ltd,Rwanda,Y,8,RSASHA256,RECOMMENDED,Y,n/a,Y,Server available and responsive,Y
+sa,sa,"Communications, Space and Technology Commission",Saudi Arabia,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+sb,sb,Solomon Telekom Company Limited,Solomon Islands,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,N,whois: connect(): Operation timed out,Y
+sc,sc,VCS Pty Ltd,Seychelles,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+sd,sd,Sudan Internet Society,Sudan,N,n/a,n/a,n/a,Y,n/a,Y,Server available and responsive,Y
+se,se,The Internet Infrastructure Foundation,Sweden,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+sg,sg,Singapore Network Information Centre (SGNIC) Pte Ltd,Singapore,Y,8,RSASHA256,RECOMMENDED,Y,n/a,Y,Server available and responsive,Y
+sh,sh,Government of St. Helena,"Saint Helena, Ascension and Tristan da Cunha",Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+si,si,Academic and Research Network of Slovenia (ARNES),Slovenia,Y,13,ECDSAP256SHA256,RECOMMENDED,Y,n/a,Y,Server available and responsive,Y
+sj,sj,Norid A/S,Svalbard and Jan Mayen,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,N,No whois server found,Y
+sk,sk,"SK-NIC, a.s.",Slovakia,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+sl,sl,Sierratel,Sierra Leone,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,No whois server found,N
+sm,sm,Telecom Italia San Marino S.p.A.,San Marino,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,whois: connect(): Operation timed out,Y
+sn,sn,Universite Cheikh Anta Diop,Senegal,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Bad status: 406,Y,Server available and responsive,Y
+so,so,Ministry of Post and Telecommunications,Somalia,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+sr,sr,Telesur,Suriname,Y,13,ECDSAP256SHA256,RECOMMENDED,N,SSL error: SSL_connect returned=1 errno=0 peeraddr=168.195.218.23:443 state=error: certificate verify failed (unable to get local issuer certificate),Y,Server available and responsive,Y
+ss,ss,National Communication Authority (NCA),South Sudan,Y,8,RSASHA256,RECOMMENDED,Y,n/a,Y,Server available and responsive,Y
+st,st,Tecnisys,Sao Tome and Principe,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+su,su,Russian Institute for Development of Public Networks (ROSNIIROS),Soviet Union / Russia,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+sv,sv,SVNet,El Salvador,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,No whois server found,Y
+sx,sx,SX Registry SA B.V.,Sint Maarten (Dutch part),Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+sy,sy,National Authority for Information Technology Services (NAITS),Syrian Arab Republic,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+sz,sz,"University of Swaziland
+Department of Computer Science",Eswatini,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,No whois server found,Y
+tc,tc,Melrex TC,Turks and Caicos Islands,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+td,td,l'Agence de Développement des Technologies de l'Information et de la Communication (ADETIC),Chad,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+tf,tf,Association Française pour le Nommage Internet en Coopération (A.F.N.I.C.),French Southern Territories,Y,13,ECDSAP256SHA256,RECOMMENDED,Y,n/a,Y,Server available and responsive,Y
+tg,tg,Autorité de Régulation des Communications Electroniques et des Postes (ARCEP),Togo,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+th,th,Thai Network Information Center Foundation,Thailand,Y,8,RSASHA256,RECOMMENDED,Y,n/a,Y,Manually tracked exception,Y
+tj,tj,Information Technology Center,Tajikistan,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,No whois server found,Y
+tk,tk,Telecommunication Tokelau Corporation (Teletok),Tokelau,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,whois: connect(): Operation timed out,Y
+tl,tl,Autoridade Nacional de Comunicações,Timor-Leste,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+tm,tm,TM Domain Registry Ltd,Turkmenistan,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+tn,tn,Agence Tunisienne d'Internet,Tunisia,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+to,to,"Government of the Kingdom of Tonga, H.R.H. Crown Prince Tupouto'a, c/o Consulate of Tonga",Tonga,N,n/a,n/a,n/a,Y,n/a,Y,Server available and responsive,Y
+tr,tr,Bilgi Teknolojileri ve İletişim Kurumu (BTK),Türkiye,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+tt,tt,"University of the West Indies, Faculty of Engineering",Trinidad and Tobago,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,N,No whois server found,Y
+tv,tv,"Ministry of Transport, Energy, Communications and Innovations",Tuvalu,Y,8,RSASHA256,RECOMMENDED,Y,n/a,Y,Server available and responsive,Y
+tw,tw,Taiwan Network Information Center (TWNIC),Taiwan,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Bad status: 426,Y,Server available and responsive,Y
+tz,tz,Tanzania Communications Regulatory Authority,Tanzania,Y,13,ECDSAP256SHA256,RECOMMENDED,Y,n/a,Y,Server available and responsive,Y
+ua,ua,Hostmaster Ltd.,Ukraine,Y,13,ECDSAP256SHA256,RECOMMENDED,Y,n/a,Y,Server available and responsive,Y
+ug,ug,Uganda Online Ltd.,Uganda,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+uk,uk,Nominet UK,United Kingdom,Y,8,RSASHA256,RECOMMENDED,Y,n/a,Y,Server available and responsive,Y
+um,um,Not assigned,United States Minor Outlying Islands,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,No whois server found,N
+us,us,"Registry Services, LLC",United States,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+uy,uy,SeCIU - Universidad de la Republica,Uruguay,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,N,whois: connect(): Operation timed out,Y
+uz,uz,Single Integrator for Creation and Support of State Information Systems UZINFOCOM,Uzbekistan,Y,8,RSASHA256,RECOMMENDED,Y,n/a,Y,Server available and responsive,Y
+va,va,Holy See - Vatican City State,Holy See (Vatican City State),N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,No whois server found,Y
+vc,vc,"Ministry of Telecommunications, Science, Technology and Industry",Saint Vincent and the Grenadines,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+ve,ve,Comisión Nacional de Telecomunicaciones (CONATEL),Venezuela,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+vg,vg,Telecommunications Regulatory Commission of the Virgin Islands,"Virgin Islands, British",N,n/a,n/a,n/a,Y,n/a,Y,Manually tracked exception,Y
+vi,vi,"Virgin Islands Public Telecommunications System, Inc.","Virgin Islands, U.S.",N,n/a,n/a,n/a,Y,n/a,N,whois: connect(): Operation timed out,Y
+vn,vn,Viet Nam Internet Network Information Center (VNNIC),Vietnam,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,N,No whois server found,Y
+vu,vu,Telecommunications Radiocommunications and Broadcasting Regulator (TRBR),Vanuatu,Y,10,RSASHA512,NOT RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+wf,wf,Association Française pour le Nommage Internet en Coopération (A.F.N.I.C.),Wallis and Futuna,Y,13,ECDSAP256SHA256,RECOMMENDED,Y,n/a,Y,Server available and responsive,Y
+ws,ws,Government of Samoa Ministry of Foreign Affairs & Trade,Samoa,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+ಭಾರತ,xn--2scrj9c,National Internet eXchange of India,India,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+한국,xn--3e0b707e,KISA (Korea Internet & Security Agency),South Korea,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+ଭାରତ,xn--3hcrj9c,National Internet eXchange of India,India,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+ভাৰত,xn--45br5cyl,National Internet eXchange of India,India,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+ভারত,xn--45brj9c,National Internet Exchange of India,India,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+.ישראל‎,xn--4dbrk0ce,The Israel Internet Association (RA),Israel,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,?,"Unexpected output: 
+% The data in the WHOIS database of the .il registry is provided
+% by ISOC-IL for information purposes, and to assist persons in 
+% obtaining information about or related to a domain name 
+% registration record. ISOC-IL does not guarantee its accuracy.
+% By submitting a WHOIS query, you agree that you will use this
+% Data only for lawful purposes and that, under no circumstances
+% will you use this Data to: (1) allow, enable, or otherwise 
+% support the transmission of mass unsolicited, commercial 
+% advertising or solicitations via e-mail (spam); 
+% or  (2) enable high volume, automated, electronic processes that 
+% apply to ISOC-IL (or its systems).
+% ISOC-IL reserves the right to modify these terms at any time.
+% By submitting this query, you agree to abide by this policy.
+ 
+
+***************************************************************
+******************** D I S A L L O W E D **********************
+***************************************************************
+
+The requested domain name was marked as disallowed for the 
+following reason:
+
+Registration for this domain name is not allowed
+According to the registration rules the domain name cannot be identical to an existing TLD (Top Level Domain).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+
+***************************************************************
+",Y
+বাংলা,xn--54b7fta0cc,Posts and Telecommunications Division,Bangladesh,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,N,No whois server found,Y
+қаз,xn--80ao21a,Association of IT Companies of Kazakhstan,Kazakhstan,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,?,"Unexpected output: Whois Server for the KZ top level domain name.
+This server is maintained by KazNIC Organization, a ccTLD manager for Kazakhstan Republic.
+
+*** Nothing found for this query.",Y
+срб,xn--90a3ac,Serbian National Internet Domain Registry (RNIDS),Serbia,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,?,"Unexpected output: 
+% The data in the Whois database are provided by RNIDS
+% for information purposes only and to assist persons in obtaining
+% information about or related to a domain name registration record. 
+% Data in the database are created by registrants and we do not guarantee 
+% their accuracy. We reserve the right to remove access 
+% for entities abusing the data, without notice.
+% All timestamps are given in Serbian local time. 
+%
+Domain name: срб.срб
+
+This domain is reserved
+
+
+
+
+
+
+
+
+
+",Y
+бг,xn--90ae,Imena.BG AD,Bulgaria,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+бел,xn--90ais,Belarusian Cloud Technologies LLC,Belarus,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,?,"Unexpected output: Domain name: бел.бел
+Registrar: Reliable Software, Ltd
+Org: Частное унитарное предприятие ""Контейнербай""
+Country: BY
+Address: 220004, -, г.Минск, пр-т Победителей, 23/1-2, каб.824
+Registration or other identification number: 193690552
+Phone: +375291027700
+Email: konteiner.by@mail.ru
+Name Server: ns1.hoster.by
+Name Server: ns2.hoster.by
+Update Date: 2026-06-01
+Creation Date: 2025-12-09
+Expiration Date: 2026-12-09
+
+-------------------------------------------
+Service provided by Belarusian Cloud Technologies LLC
+
+",Y
+சிங்கப்பூர்,xn--clchc0ea0b2g2a9gcd,Singapore Network Information Centre (SGNIC) Pte Ltd,Singapore,Y,8,RSASHA256,RECOMMENDED,N,Bad status: 404,?,"Unexpected output: Error code: 01044
+Error message: The domain name requested has usage restrictions applied to it. Please see your Registrar for more details.
+
+% ----------------------------------------------------------------------
+% SGNIC WHOIS Server
+% ----------------------------------------------------------------------
+%
+% This data is provided for information purposes only.
+",Y
+мкд,xn--d1alf,Macedonian Academic Research Network Skopje,North Macedonia,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,?,"Unexpected output: % Domain Information over Whois protocol
+%
+% MARnet whois proxy server
+% Timestamp: Tue Jul 21 2026 07:55:53
+
+domain:       мкд.мкд
+registrant:   VMEDIA-R5948
+admin-c:      VMEDIA-C10292
+nsset:        VMEDIA-N11130
+registrar:    VMEDIA-REG
+registered:   04.09.2025 10:14:01
+changed:      16.10.2025 10:44:24
+expire:       04.09.2026
+
+contact:      VMEDIA-R5948
+org:          Приватна здравствена установа - Лабораторија за молекуларна дијагностика ГЕНЕМ Гевгелија
+name:         Генем
+address:      DATA REDACTED
+address:      DATA REDACTED
+address:      DATA REDACTED
+address:      MK
+phone:        DATA REDACTED
+e-mail:       contact@genem.mk
+registrar:    VMEDIA-REG
+created:      DATA REDACTED
+
+contact:      VMEDIA-C10292
+name:         Генем
+address:      DATA REDACTED
+address:      DATA REDACTED
+address:      DATA REDACTED
+address:      MK
+phone:        DATA REDACTED
+e-mail:       indo@genem.mk
+registrar:    VMEDIA-REG
+created:      DATA REDACTED
+
+nsset:        VMEDIA-N11130
+nserver:      dns1.namecheaphosting.com 
+nserver:      dns2.namecheaphosting.com 
+tech-c:       VMEDIA-C10293
+registrar:    VMEDIA-REG
+created:      04.09.2025 10:14:01
+changed:      16.10.2025 10:44:20
+
+contact:      VMEDIA-C10293
+name:         Генем
+address:      DATA REDACTED
+address:      DATA REDACTED
+address:      DATA REDACTED
+address:      MK
+phone:        DATA REDACTED
+e-mail:       contact@genem.mk
+registrar:    VMEDIA-REG
+created:      DATA REDACTED
+
+
+",Y
+ею,xn--e1a4c,EURid vzw,European Union,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+中国,xn--fiqs8s,China Internet Network Information Center (CNNIC),China,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,?,"Unexpected output: the Domain Name you apply can not be registered online. Please consult your Domain Name registrar
+",Y
+中國,xn--fiqz9s,China Internet Network Information Center (CNNIC),China,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,?,"Unexpected output: the Domain Name you apply can not be registered online. Please consult your Domain Name registrar
+",Y
+భారత్,xn--fpcrj9c3d,National Internet Exchange of India,India,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+ලංකා,xn--fzc2c9e2c,LK Domain Registry,Sri Lanka,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,No whois server found,Y
+ભારત,xn--gecrj9c,National Internet Exchange of India,India,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+भारतम्,xn--h2breg3eve,National Internet eXchange of India,India,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+भारत,xn--h2brj9c,National Internet Exchange of India,India,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+भारोत,xn--h2brj9c8c,National Internet eXchange of India,India,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+укр,xn--j1amh,"Ukrainian Network Information Centre (UANIC), Inc.",Ukraine,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+香港,xn--j6w193g,Hong Kong Internet Registration Corporation Ltd.,Hong Kong,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,?,"Unexpected output: This domain is currently not available for registration. Please select other domain. 
+",Y
+台湾,xn--kprw13d,Taiwan Network Information Center (TWNIC),Taiwan,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,?,"Unexpected output: 註冊原型域名: 台灣.台灣 (xn--kpry57d.xn--kpry57d)
+保留字域名(由下列相關字組合之域名):
+ 台 檯 籉 臺 颱
+ 湾 灣
+   Domain Status: inactive
+   Registrant:
+      行政院研考會
+      Research Development and Evaluation Commission ExecutiveYua
+      window@gsn.gov.tw
+      TW
+      (Redacted for privacy)
+
+   Administrative Contact:
+      (Redacted for privacy)
+
+   Technical Contact:
+      (Redacted for privacy)
+
+   Record expires on  (UTC+8)
+   Record created on 2001-02-14 20:54:19 (UTC+8)
+
+
+Registration Service Provider: GOV (政府類優先申請註冊)
+Registration Service URL: https://www.rdec.gov.tw/
+  (reserved word)
+",Y
+台灣,xn--kpry57d,Taiwan Network Information Center (TWNIC),Taiwan,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Bad status: 426,Y,Server available and responsive,Y
+мон,xn--l1acc,"Datacom Co.,Ltd",Mongolia,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,N,whois: connect(): Operation timed out,N
+.الجزائر‎,xn--lgbbat1ad8j,CERIST,Algeria,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+.عمان‎,xn--mgb9awbf,Telecommunications Regulatory Authority (TRA),Oman,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,?,"Unexpected output: No Data Found
+URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
+>>> Last update of WHOIS database: 2026-07-21T05:57:26Z <<<
+
+",Y
+.ایران‎,xn--mgba3a4f16a,Institute for Research in Fundamental Sciences (IPM),Iran,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+.امارات‎,xn--mgbaam7a8h,Telecommunications and Digital Government Regulatory Authority (TDRA),United Arab Emirates,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,?,"Unexpected output: Domain امارات.امارات has been reserved by aeDA Regulator
+",Y
+.موريتانيا‎,xn--mgbah1a3hjkrd,Université de Nouakchott Al Aasriya,Mauritania,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+.پاکستان‎,xn--mgbai9azgqp6j,National Telecommunication Corporation,Pakistan,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,N,No whois server found,N
+.الاردن‎,xn--mgbayh7gpa,Ministry of Digital Economy and Entrepreneurship (MoDEE),Jordan,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,N,No whois server found,Y
+.بارت‎,xn--mgbbh1a,National Internet eXchange of India,India,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+.بھارت‎,xn--mgbbh1a71e,National Internet Exchange of India,India,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+.المغرب‎,xn--mgbc0a9azcg,Agence Nationale de Réglementation des Télécommunications (ANRT),Morocco,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,No whois server found,Y
+.البحرين‎,xn--mgbcpq6gpa1a,Telecommunications Regulatory Authority (TRA),Oman,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,N,No whois server found,Y
+.السعودية‎,xn--mgberp4a5d4ar,"Communications, Space and Technology Commission",Saudi Arabia,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+.ڀارت‎,xn--mgbgu82a,National Internet eXchange of India,India,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+.سودان‎,xn--mgbpl2fh,Sudan Internet Society,Sudan,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,No whois server found,Y
+.عراق‎,xn--mgbtx2b,Communications and Media Commission (CMC),Iraq,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,"whois: whois.cmc.iq: nodename nor servname provided, or not known: Invalid argument",Y
+.مليسيا‎,xn--mgbx4cd0ab,MYNIC Berhad,Malaysia,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+澳門,xn--mix891f,Macao Post and Telecommunications Bureau (CTT),Macao,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+გე,xn--node,Information Technologies Development Center (ITDC),Georgia,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,No whois server found,Y
+ไทย,xn--o3cw4h,Thai Network Information Center Foundation,Thailand,Y,8,RSASHA256,RECOMMENDED,N,Bad status: 404,?,"Unexpected output: 
+Whois Server Version 2.1.7
+
+% No match found.
+",Y
+.سورية‎,xn--ogbpf8fl,National Authority for Information Technology Services (NAITS),Syrian Arab Republic,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+рф,xn--p1ai,Coordination Center for TLD RU,Russian Federation,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+.تونس‎,xn--pgbs0dh,Agence Tunisienne d'Internet,Tunisia,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,?,"Unexpected output: NIC Whois server for cTLDs : .tn , .تونس
+All rights reserved
+Copyright ""Tunisian Internet Agency - https://whois.ati.tn
+Supported ccTLDs : .tn , .تونس
+Sectorial domains : .com.tn,.ens.tn,.fin.tn,.gov.tn,.ind.tn,.intl.tn,.nat.tn,.net.tn,.org.tn,.info.tn,.perso.tn,.tourism.tn,.mincom.tn
+
+Domain name.........: تونس.تونس
+Details:
+Creation date.......: 20-09-2012 15:54:27 GMT+1
+Domain status.......: TRANSFER_PROHIBITED
+Registrar...........: ATI
+
+Owner Contact
+Name................: Instance Nationale des Télécommunications
+First name..........: 
+Address.............: Rue Echabia (Ex:8003). Montplaisir 1073 Tunis
+address2............: 
+City................: 
+stateProvince.......: 
+Zip code............: 
+Country.............: 
+Phone...............: +216 71 900 868
+Fax.................: +216 71 909 435
+Email...............: contact@intt.tn
+
+Administrativ contact
+Name................: Instance Nationale des Télécommunications
+First name..........: 
+Address.............: Rue Echabia (Ex:8003). Montplaisir 1073 Tunis
+address2............: 
+City................: 
+stateProvince.......: 
+Zip code............: 
+Country.............: 
+Phone...............: +216 71 900 868
+Fax.................: +216 71 909 435
+Email...............: contact@intt.tn
+
+Technical contact
+Name................: Instance Nationale des Télécommunications
+First name..........: 
+Address.............: Rue Echabia (Ex:8003). Montplaisir 1073 Tunis
+address2............: 
+City................: 
+stateProvince.......: 
+Zip code............: 
+Country.............: 
+Phone...............: +216 71 900 868
+Fax.................: +216 71 909 435
+Email...............: contact@intt.tn
+dnssec..............: unsigned
+
+DNS servers
+Name................: ns4.ati.tn.
+Name................: ns6.ati.tn.
+
+",Y
+ລາວ,xn--q7ce6a,"Lao National Internet Center (LANIC), Ministry of Technology and Communications",Lao People's Democratic Republic,Y,7,RSASHA1-NSEC3-SHA1,MUST NOT,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+ευ,xn--qxa6a,EURid vzw,European Union,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+ελ,xn--qxam,ICS-FORTH GR,Greece,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,N,No whois server found,Y
+ഭാരതം,xn--rvc1e0am3e,National Internet eXchange of India,India,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+ਭਾਰਤ,xn--s9brj9c,National Internet Exchange of India,India,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+.مصر‎,xn--wgbh1c,National Telecommunication Regulatory Authority - NTRA,Egypt,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,N,No whois server found,N
+.قطر‎,xn--wgbl6a,Communications Regulatory Authority,Qatar,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,?,"Unexpected output: No Data Found
+",Y
+இலங்கை,xn--xkc2al3hye2a,LK Domain Registry,Sri Lanka,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,N,No whois server found,Y
+இந்தியா,xn--xkc2dl3a5ee0h,National Internet Exchange of India,India,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,Y,Server available and responsive,Y
+հայ,xn--y9a3aq,"""Internet Society"" Non-governmental Organization",Armenia,Y,13,ECDSAP256SHA256,RECOMMENDED,N,Not in IANA bootstrap list,?,"Unexpected output: %
+%AM TLD whois server #2
+% Please see 'whois -h whois.amnic.net help' for usage.
+%
+
+Reserved name: Blocked governmental domain name
+
+",Y
+新加坡,xn--yfro4i67o,Singapore Network Information Centre (SGNIC) Pte Ltd,Singapore,Y,8,RSASHA256,RECOMMENDED,N,Bad status: 404,?,"Unexpected output: Error code: 01044
+Error message: The domain name requested has usage restrictions applied to it. Please see your Registrar for more details.
+
+% ----------------------------------------------------------------------
+% SGNIC WHOIS Server
+% ----------------------------------------------------------------------
+%
+% This data is provided for information purposes only.
+",Y
+.فلسطين‎,xn--ygbi2ammx,Ministry of Telecom & Information Technology (MTIT),"Palestine, State of",N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,whois: connect(): Operation timed out,Y
+ye,ye,TeleYemen,Yemen,N,n/a,n/a,n/a,Y,n/a,Y,Server available and responsive,Y
+yt,yt,Association Française pour le Nommage Internet en Coopération (A.F.N.I.C.),Mayotte,Y,13,ECDSAP256SHA256,RECOMMENDED,Y,n/a,Y,Server available and responsive,Y
+za,za,ZA Domain Name Authority,South Africa,Y,8,RSASHA256,RECOMMENDED,N,Not in IANA bootstrap list,N,No whois server found,Y
+zm,zm,Zambia Information and Communications Technology Authority (ZICTA),Zambia,Y,8,RSASHA256,RECOMMENDED,Y,n/a,Y,Server available and responsive,Y
+zw,zw,Postal and Telecommunications Regulatory Authority of Zimbabwe (POTRAZ),Zimbabwe,N,n/a,n/a,n/a,N,Not in IANA bootstrap list,N,No whois server found,Y
