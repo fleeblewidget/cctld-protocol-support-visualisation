@@ -343,13 +343,13 @@ def make_protocol_charts(df, output_path):
     bars = ax1.barh(labels, values, color=colours, height=0.5, zorder=2)
 
     ax1.axvline(x=total, color='#333333', linewidth=1.5,
-                linestyle='--', zorder=3, label=f'Total assessed ({total})')
+                linestyle='--', zorder=3)
 
     for bar, val in zip(bars, values):
         pct = val / total * 100
         ax1.text(
             bar.get_width() + 2, bar.get_y() + bar.get_height() / 2,
-            f'{val} ({pct:.0f}%)',
+            f'{val}\n({pct:.0f}%)',
             va='center', ha='left', fontsize=10
         )
 
@@ -364,12 +364,21 @@ def make_protocol_charts(df, output_path):
     # --- Right: DNSSEC algorithm breakdown ---
     signed = df[df['ds'] == 'Y'].copy()
 
+    RECOMMENDATION_ORDER = ['RECOMMENDED', 'MAY', 'NOT RECOMMENDED', 'MUST NOT']
+
     alg_counts = (
         signed.groupby(['ds_algorithm_name', 'ds_algorithm_status'])
         .size()
         .reset_index(name='count')
-        .sort_values('count', ascending=True)
     )
+
+    # Sort by recommendation level, then by count descending within each level
+    alg_counts['rec_order'] = alg_counts['ds_algorithm_status'].map(
+        {status: i for i, status in enumerate(RECOMMENDATION_ORDER)}
+    )
+    alg_counts = (alg_counts
+        .sort_values(['rec_order', 'count'], ascending=[False, True])
+        .drop(columns='rec_order'))
 
     alg_labels  = [
         f"{row['ds_algorithm_name']} ({row['ds_algorithm_status']})"
