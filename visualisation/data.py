@@ -4,7 +4,7 @@ import geopandas as gpd
 import pandas as pd
 import pycountry
 
-from .config import GROUP_LABELS
+from .config import GROUP_LABELS, REQUIRED_COLUMNS
 
 # ccTLD label -> ISO 3166-1 alpha-2 exceptions
 # Most ccTLDs map directly (label.upper() == ISO code) but these don't
@@ -16,6 +16,22 @@ ISO_EXCEPTIONS = {
 # Note that .ac is in use at time of writing, but the visualisations use
 # the larger .sh
 EXCLUDE = {'eu', 'su', 'gb', 'ac'}
+
+def validate_csv(df):
+    missing = REQUIRED_COLUMNS - set(df.columns)
+    if missing:
+        raise ValueError(f"CSV is missing required columns: {', '.join(sorted(missing))}")
+    
+    # Check expected values
+    invalid_ds = df[~df['ds'].isin(['Y', 'N'])]
+    if not invalid_ds.empty:
+        raise ValueError(f"Unexpected values in 'ds' column: {invalid_ds['ds'].unique()}")
+    
+    invalid_rdap = df[~df['rdap'].isin(['Y', 'N'])]
+    if not invalid_rdap.empty:
+        raise ValueError(f"Unexpected values in 'rdap' column: {invalid_rdap['rdap'].unique()}")
+
+    print(f"CSV validation passed: {len(df)} rows, all expected columns present")
 
 def group(row):
     ds    = row['ds']    == 'Y'

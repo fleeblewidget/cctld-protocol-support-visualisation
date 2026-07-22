@@ -1,3 +1,9 @@
+REQUIRED_COLUMNS = {
+    'label', 'punycode_label', 'manager', 'country',
+    'ds', 'ds_algorithm_number', 'ds_algorithm_name', 'ds_algorithm_status',
+    'rdap', 'rdap_error_detail', 'whois', 'whois_detail', 'ipv6'
+}
+
 GROUP_LABELS = {
     5: 'DNSSEC + RDAP',
     4: 'RDAP, no DNSSEC',

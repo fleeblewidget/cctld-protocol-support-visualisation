@@ -7,7 +7,7 @@ Generates a choropleth map and small multiples from a technical profile CSV data
 import sys
 import os
 
-from visualisation.data import load_data, load_world, merge_data
+from visualisation.data import load_data, load_world, merge_data, validate_csv
 from visualisation.choropleth import make_interactive_map, make_static_map
 from visualisation.multiples import make_small_multiples
 from visualisation.counts import make_protocol_charts
@@ -39,6 +39,9 @@ def main():
     df     = load_data(csv_path)
     world  = load_world()
     merged = merge_data(world, df)
+
+    # Confirm validity of data file
+    validate_csv(df)
 
     make_interactive_map(df, os.path.join(OUTPUT_DIR, 'profile_interactive.html'))
     make_static_map(merged, os.path.join(OUTPUT_DIR, 'profile_static.png'))

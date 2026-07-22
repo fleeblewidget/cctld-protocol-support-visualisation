@@ -47,7 +47,6 @@ def make_protocol_charts(df, output_path):
     ax1.set_xlim(0, total * 1.18)
     ax1.set_xlabel('Number of ccTLDs', fontsize=10)
     ax1.set_title('Protocol Adoption', fontsize=11, fontweight='bold', pad=8)
-    ax1.legend(fontsize=9)
     ax1.grid(axis='x', alpha=0.3, zorder=1)
     ax1.spines['top'].set_visible(False)
     ax1.spines['right'].set_visible(False)
