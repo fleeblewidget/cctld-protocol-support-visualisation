@@ -1,0 +1,42 @@
+name: Generate visualisations
+
+on:
+  repository_dispatch:
+    types: [data-refreshed]
+  workflow_dispatch:  # allow manual trigger too
+
+permissions:
+  contents: write
+
+jobs:
+  visualise:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Fetch latest data
+        run: |
+          curl -o data.csv \
+            https://raw.githubusercontent.com/fleeblewidget/cctld-protocol-data/main/results/latest_protocol_data.csv
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate visualisations
+        run: python maps.py data.csv
+
+      - name: Commit outputs
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/
+          git diff --staged --quiet || git commit -m "Visualisations $(date +%Y-%m-%d)"
+          git push
