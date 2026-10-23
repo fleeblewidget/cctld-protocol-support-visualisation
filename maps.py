@@ -6,6 +6,10 @@ Generates a choropleth map and small multiples from a technical profile CSV data
 
 import sys
 import os
+import shutil
+from datetime import datetime, timezone
+
+from jinja2 import Environment, FileSystemLoader
 
 from visualisation.data import load_data, load_world, merge_data, validate_csv
 from visualisation.choropleth import make_interactive_map, make_static_map
@@ -17,6 +21,32 @@ from visualisation.counts import make_protocol_charts
 # ---------------------------------------------------------------------------
 
 OUTPUT_DIR = 'output'
+TEMPLATE_DIR = 'templates'
+BINARY_EXTENSIONS = ('.ico', '.png', '.jpg', '.jpeg', '.webp', '.gif')
+
+# ---------------------------------------------------------------------------
+# Templates
+# ---------------------------------------------------------------------------
+
+def render_templates():
+    """Render every file in TEMPLATE_DIR into OUTPUT_DIR, with build variables available.
+    Binary image files are copied as-is rather than rendered."""
+    env = Environment(loader=FileSystemLoader(TEMPLATE_DIR), keep_trailing_newline=True)
+    now = datetime.now(timezone.utc)
+    context = {
+        'build_time': now.strftime('%Y-%m-%d %H:%M UTC'),
+        'build_time_iso': now.isoformat(timespec='seconds'),
+    }
+    names = [n for n in env.list_templates() if not os.path.basename(n).startswith('.')]
+    for name in names:
+        out_path = os.path.join(OUTPUT_DIR, name)
+        os.makedirs(os.path.dirname(out_path), exist_ok=True)
+        if name.lower().endswith(BINARY_EXTENSIONS):
+            shutil.copy2(os.path.join(TEMPLATE_DIR, name), out_path)
+            continue
+        with open(out_path, 'w', encoding='utf-8') as f:
+            f.write(env.get_template(name).render(context))
+    return names
 
 # ---------------------------------------------------------------------------
 # Entry point
@@ -48,11 +78,15 @@ def main():
     make_small_multiples(merged, os.path.join(OUTPUT_DIR, 'profile_multiples.png'))
     make_protocol_charts(df, os.path.join(OUTPUT_DIR, 'protocol_counts.png'))
 
+    pages = render_templates()
+
     print("\nDone. Outputs:")
     print(f"  {OUTPUT_DIR}/profile_interactive.html  — embeddable interactive map")
     print(f"  {OUTPUT_DIR}/profile_static.png        — static consolidated protocol support map")
     print(f"  {OUTPUT_DIR}/profile_multiples.png     — detailed graphics by category")
     print(f"  {OUTPUT_DIR}/profile_counts.png        — bar charts with counts")
+    for name in pages:
+        print(f"  {OUTPUT_DIR}/{name}")
 
 
 if __name__ == '__main__':

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>ccTLD Protocol Adoption</h1>
+    <p>Many TLDs are run under contract with <a href="https://www.icann.org/">ICANN</a>, requiring support for certain protocols. However, country-code TLDs (ccTLDs - associated with a particular country) do not have any contractual obligation to provide any particular setup, and there is a lot of variety in their technical postures. This project tracks publicly available information to map the different protocols supported across different TLDs.</p>
+    <p>Some countries have additional ccTLDs for internationalised versions of their names in non-ASCII scripts, to support Internationalised Domain Names (IDNs). These are also tracked in the underlying dataset. Although the maps use the ASCII labels as these are typically more established, the IDN ccTLDs are included in bar graphs.</p>
+    <h2>Protocol Details</h2>
+    <dl>
+      <dt>WHOIS</dt>
+      <dd>WHOIS is an older protocol, aimed at making domain ownership information publicly available. The output is non-standardised, so WHOIS lookups can be very different between different registries even in contracted TLDs.</dd>
+      <dt>RDAP</dt>
+      <dd>RDAP is a more modern replacement for WHOIS, with enhancements including standardised, machine-readable output format, discoverability and extensibility. In addition to registrant data (often redacted for privacy), RDAP can be used to check other useful domain registration information such as status, locks and expiry date.</dd>
+      <dt>DNSSEC</dt>
+      <dd>DNSSEC is a mechanism for protecting DNS lookups using split-key cryptography. A signed zone is significantly safer from spoofing, cache poisoning and other attacks on DNS.</dd>
+      <dt>IPv6</dt>
+      <dd>IPv6 is a more modern addressing protocol, allowing for a vastly larger address space. It's adoption allows far more devices to be connected to the Internet.</dd>
+    </dl>
+    <h2>Dataset 1: Protocols by Country</h2>
+    <iframe src="./profile_interactive.html" title="Interactive graph of protocol adoption among ccTLDs" width="100%" height="600em"></iframe>
+    <h2>Dataset 2: Counts</h2>
+    <p>The DNS records used for DNSSEC can be signed with different algorithms, which allows the protocol to be upgraded over time as cryptography advances. The latest data on which algorithms are recommended is <a href="https://www.iana.org/assignments/dns-sec-alg-numbers">available from IANA</a>, and used to cross-reference whether countries are using recommended levels of encryption or not.</p>
+    <img src="./protocol_counts.png" title="Bar graphs of protocol adoption numbers" width="100%">
+  </body>
+</html>

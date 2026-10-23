@@ -1,0 +1,97 @@
+:root {
+  --bg: #fff;
+  --fg: #333;
+  --accent: #002b49;
+  --highlight: #047bc1;
+  --contrast: #0d9549;
+  --separator-line-thickness: 2px;
+
+  @media (prefers-color-scheme: dark) {
+    --bg: #333;
+    --fg: #fff;
+    --accent: #27afff;
+    --highlight: #70caff;
+    --separator-line-thickness: 1px;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Optima, Candara, 'Noto Sans', source-sans-pro, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 1rem;
+  background: var(--bg);
+  color: var(--fg);
+
+  & > * {
+    width: 100%;
+    max-width: 1170px;
+  }
+}
+
+h1, h2 {
+  letter-spacing: 0.025ch;
+}
+
+h2 {
+  color: var(--contrast);
+}
+
+header {
+  border-bottom: var(--separator-line-thickness) solid var(--accent);
+  display: flex;
+  gap: 1.2rem;
+  padding: 1.2rem 0;
+
+  h1 {
+    margin: 0;
+  }
+}
+
+footer {
+  margin-top: 1rem;
+  border-top: var(--separator-line-thickness) solid var(--accent);
+  font-size: 1.4rem;
+}
+
+iframe {
+  border: var(--separator-line-thickness) solid var(--accent);
+}
+
+a {
+  color: var(--accent);
+  font-weight: bold;
+
+  &:hover {
+    color: var(--highlight);
+  }
+}
+
+dl {
+  display: grid;
+  grid-template-columns: 6rem 1fr;
+  gap: 1rem 2.5rem;
+  max-width: max(90cqw, 600px);
+  margin: auto;
+}
+
+dt {
+  text-align: right;
+  font-weight: bold;
+}
+
+dd {
+  margin: 0;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="text-scale" content="scale">
+    <title>ccTLD Protocol Adoption</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <meta name="description" content="Up-to-date research on the breadth of support for WHOIS, RDAP, DNSSEC and IPv6 among ccTLD registries.">
+    <meta property="og:image" content="og.png">
+    <meta name="color-scheme" content="light dark">
+  </head>
+  <body>
+    <header>
+      <img src="favicon.svg" alt height="45" width="45">
+      <h1>ccTLD Protocol Adoption</h1>
+    </header>
+    <main>
+      <section>
+        <h2>Introduction</h2>
+        <p>
+          Many TLDs are run under contract with <a href="https://www.icann.org/">ICANN</a>, requiring
+          support for certain protocols. However, country-code TLDs (ccTLDs - associated with a
+          particular country) do not have any contractual obligation to provide any particular setup,
+          and there is a lot of variety in their technical postures. This project tracks publicly
+          available information to map the different protocols supported across different TLDs.
+        </p>
+        <p>
+          Some countries have additional ccTLDs for internationalised versions of their names in
+          non-ASCII scripts, to support Internationalised Domain Names (IDNs). These are also tracked
+          in the underlying dataset. Although the maps use the ASCII labels as these are typically
+          more established, the IDN ccTLDs are included in bar graphs.
+        </p>
+      </section>
+      <section>
+        <h2>Protocol Details</h2>
+        <dl>
+          <dt>WHOIS</dt>
+          <dd>
+            WHOIS is an older protocol, aimed at making domain ownership information publicly
+            available. The output is non-standardised, so WHOIS lookups can be very different between
+            different registries even in contracted TLDs.
+          </dd>
+          <dt>RDAP</dt>
+          <dd>
+            RDAP is a more modern replacement for WHOIS, with enhancements including standardised,
+            machine-readable output format, discoverability and extensibility. In addition to
+            registrant data (often redacted for privacy), RDAP can be used to check other useful
+            domain registration information such as status, locks and expiry date.
+          </dd>
+          <dt>DNSSEC</dt>
+          <dd>
+            DNSSEC is a mechanism for protecting DNS lookups using split-key cryptography. A signed
+            zone is significantly safer from spoofing, cache poisoning and other attacks on DNS.
+          </dd>
+          <dt>IPv6</dt>
+          <dd>
+            IPv6 is a more modern addressing protocol, allowing for a vastly larger address space.
+            Its adoption allows far more devices to be connected to the Internet.
+          </dd>
+        </dl>
+      </section>
+      <section>
+        <h2>Dataset 1: Protocols by Country</h2>
+        <iframe src="profile_interactive.html" title="Interactive graph of protocol adoption among ccTLDs" width="1170" height="600" style="aspect-ratio: 1170/600; width: 100%; height: auto;"></iframe>
+      </section>
+      <section>
+        <h2>Dataset 2: Counts</h2>
+        <p>
+          The DNS records used for DNSSEC can be signed with different algorithms, which allows the
+          protocol to be upgraded over time as cryptography advances. The latest data on which
+          algorithms are recommended is
+          <a href="https://www.iana.org/assignments/dns-sec-alg-numbers">available from IANA</a>,
+          and used to cross-reference whether countries are using recommended levels of encryption or
+          not.
+        </p>
+        <img src="protocol_counts.png" title="Bar graphs of protocol adoption numbers" width="100%">
+      </section>
+    </main>
+    <footer>
+      <p>
+        Last built: <time datetime="{{ build_time_iso }}">{{ build_time }}</time>
+      </p>
+    </footer>
+  </body>
+</html>
